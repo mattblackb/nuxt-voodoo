@@ -1,0 +1,21 @@
+query GET_SINGLE_POSTS ($slug: String) {
+    postApp(where: {slug: $slug}) {
+    id
+    title
+     headerTitle
+    headerText {html}
+    headerImage {  
+      url(
+        transformation: {
+          image: { resize: { width: 350, fit: scale } }
+        }
+      ) 
+    }
+    postDetails{html}
+    postDetails2{html}
+    postFooter{html}
+    slug
+    metaDescription
+    metaTitle
+  }
+}

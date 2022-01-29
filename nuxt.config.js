@@ -32,11 +32,24 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/vuetify',
   ],
+  vuetify: {
+    treeShake: true,
+    theme: { dark: true },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/apollo',
   ],
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'https://api-eu-west-2.graphcms.com/v2/ckyzwhkww1w3p01wdehov1qrv/master',
+      },
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

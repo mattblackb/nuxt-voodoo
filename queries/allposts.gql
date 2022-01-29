@@ -1,0 +1,6 @@
+query GET_ALL_POSTS {
+  postApps {
+         id
+         title     
+}
+}
