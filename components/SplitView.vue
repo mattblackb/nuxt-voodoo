@@ -20,6 +20,6 @@ export default {
 </script>
 
 <style scoped>
-    .orange { background-color: orange; color: black}
+    .orange { background-color: #f06d2f; color: black}
     h2 {color: white}
 </style>

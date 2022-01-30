@@ -2,8 +2,8 @@
   <main>
 
     <v-app-bar
-      color="deep-purple accent-4"
       dark
+      flat
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
        <nuxt-link 

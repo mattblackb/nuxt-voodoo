@@ -1,6 +1,6 @@
   <template>
   
-  <div class="orange rounded-t-xl pa-5 mb-5">
+  <div class="orange  pa-5 mb-5">
       <v-row>
         <v-col  sm="12">
               <h2><slot name="header"></slot></h2>
@@ -27,6 +27,6 @@ export default {
 </script>
 
 <style scoped>
-    .orange { background-color: orange; color: black}
-    h2 {color: white}
+    .orange { background-color: #f06d2f!important; color: black}
+    h2 {color: white; font-size: 32px;}
 </style>

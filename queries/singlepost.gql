@@ -4,10 +4,17 @@ query GET_SINGLE_POSTS ($slug: String) {
     title
      headerTitle
     headerText {html}
+    mainheaderImage { 
+       url(
+        transformation: {
+          image: { resize: { width: 500, fit: scale } }
+        }
+      ) 
+    }
     headerImage {  
       url(
         transformation: {
-          image: { resize: { width: 350, fit: scale } }
+          image: { resize: { width: 500, fit: scale } }
         }
       ) 
     }

@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div  v-if="postApp">
-      <PageHeader imageurl="/voodoo_logo.png">
+      <PageHeader :imageurl="checkforImage()">
             <template v-slot:header>
               {{postApp.title}}
             </template>
@@ -41,6 +41,13 @@ export default {
       var str = string.replace(re, '');
 
         return str
+    },
+    checkforImage() {
+      if(this.postApp.mainheaderImage){
+        return this.postApp.mainheaderImage.url
+      } else {
+        return "/voodoo_logo.png"
+      }
     }
   },
   async asyncData({ app, params }) {
@@ -83,6 +90,6 @@ export default {
   height: auto;
 }
 h2, b {
-  color: orange;
+  color: #f06d2f;
 }
 </style>

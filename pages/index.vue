@@ -1,7 +1,7 @@
 <template>
    <main>
   <!-- Loop around unique categories -->
-        <PageHeader imageurl="/voodoo_logo.png">
+        <PageHeader :imageurl="checkforImage()">
         <template v-slot:header>
            {{postApp.title}}
         </template>
@@ -22,7 +22,7 @@
                       </template>
             </SplitViewHead>
              <v-row>
-              <p><strong>  Infinite Possibility | Martial Arts Academy Macclesfield</strong></p>
+       
             </v-row>
              <v-row v-if="postApp.postDetails2.html">
                   <SplitView>
@@ -37,7 +37,7 @@
              <v-row v-else>
                Standard View
              </v-row>
-              <v-row v-if="postApp.postFooter.html">
+              <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
                   <div v-html="postApp.postFooter.html"></div>
               </v-row>
    
@@ -55,7 +55,15 @@ export default {
     loading: 0,
     currentitem: null 
   }),
-
+  methods: {
+    checkforImage() {
+      if(this.postApp.mainheaderImage){
+        return this.postApp.mainheaderImage.url
+      } else {
+        return "/voodoo_logo.png"
+      }
+    }
+  },
   async asyncData({ app, params }) {
       const client = app.apolloProvider.defaultClient;
       const slug = "voodoo_combat_home"
