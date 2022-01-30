@@ -10,7 +10,7 @@
            <v-col sm="12" md="6">
               <slot name="left"></slot>
           </v-col>
-         <v-col  sm="12" md="6">
+         <v-col  sm="12" md="6" class="hundred flex-wrap">
                <slot name="right"></slot>
           </v-col>
          </v-row>
@@ -29,4 +29,10 @@ export default {
 <style scoped>
     .orange { background-color: #f06d2f!important; color: black}
     h2 {color: white; font-size: 32px;}
+   @media (max-width: 1275px) {
+        img{
+    min-width: 100%!important;
+    width: 100%;
+        }
+         }
 </style>

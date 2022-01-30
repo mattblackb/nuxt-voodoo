@@ -37,7 +37,7 @@
     min-width: 250px;
 }
 @media (max-width: 396px) { .header .col {
-    min-width: 100%;
+    min-width: 100%!important;
 } }
 .header img {
   max-width: 100%;

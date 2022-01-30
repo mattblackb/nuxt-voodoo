@@ -38,7 +38,9 @@
                Standard View
              </v-row>
               <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
-                  <div v-html="postApp.postFooter.html"></div>
+                <v-col >
+                  <div v-html="postApp.postFooter.html" class="hundres"></div>
+                </v-col>
               </v-row>
    
           </v-container>
@@ -84,12 +86,12 @@ export default {
       
       return {
         title: this.postApp.metaTitle,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.postApp.metaDescription 
-        },
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.postApp.metaDescription 
+          },
       ],
       }
   }
@@ -98,4 +100,16 @@ export default {
 
 <style scoped>
 
+   .hundres img {
+            max-width: 100%;
+            display: none;
+         }
+@media (max-width: 1275px) {
+        img{
+    max-width: 100%!important;
+    width: 100%;
+
+        }
+         }
+      
 </style>

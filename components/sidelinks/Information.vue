@@ -40,3 +40,17 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    ul li {
+        list-style: none;
+        padding: 0px 0px 3px 0px;
+        margin-left: 0px;
+    }
+    ul {
+        padding-left: 0px;
+    }
+    ul li a {
+        color: white;
+    }
+</style>
