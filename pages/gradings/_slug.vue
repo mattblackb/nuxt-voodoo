@@ -6,16 +6,16 @@
               {{postApp.title}}
             </template>
       </PageHeader>
-        <MainView linkType="information" v-if="!postApp.postDetails2">
+        <MainView linkType="gradings" v-if="!postApp.postDetails2">
               <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
         </MainView>
 
-         <MainViewsplit linkType="information" v-else>
+         <MainViewsplit linkType="gradings" v-else>
                 <template v-slot:left>
              <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
             </template>
                <template v-slot:right>
-             <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
+             <div v-html="removeVoodoo(postApp.postDetails2.html)"></div>
             </template>
               
         </MainViewsplit>

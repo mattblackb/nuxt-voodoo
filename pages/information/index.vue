@@ -45,7 +45,8 @@ export default {
   },
   async asyncData({ app, params }) {
       const client = app.apolloProvider.defaultClient;
-      const slug = params.slug;
+      const slug = 'information';
+      console.log('Information')
       const res = await client.query({
         query: GET_SINGLE_POSTS,
         variables: {

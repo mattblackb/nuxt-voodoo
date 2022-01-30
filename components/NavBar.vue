@@ -1,42 +1,70 @@
 <template>
   <main>
-    <v-toolbar flat class="pl-0">
- <nuxt-link 
+
+    <v-app-bar
+      color="deep-purple accent-4"
+      dark
+    >
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
+       <nuxt-link 
   tag="img" 
-  to="/" class="mr-5 home" aria-label="Home Button">
+   :src="require('~/static/voodoo_logo.png')" 
+  to="/" class="mr-5 home hidden-sm-and-down" aria-label="Home Button">
 </nuxt-link>
-       
-         <!-- <v-toolbar-title>  
-     Matt Burton</v-toolbar-title> -->
-
       <v-spacer></v-spacer>
-      <v-btn icon to="/bookmarkapp" aria-label="Swift Ui BookMark App">
-       <v-icon>mdi-book</v-icon>
-      </v-btn>
-      <v-btn icon to="/about"   aria-label="about Matt Burton">
-        <v-icon>mdi-information-outline</v-icon>
-      </v-btn>
-    </v-toolbar>
-  
-     <v-navigation-drawer v-model="drawer"  absolute temporary>
-            <v-list nav dense>
-              <v-list-item-group  active-class="deep-purple--text text--accent-4">
-                <v-list-item to="/">
-                  <v-list-item-icon>
-                    <v-icon>mdi-home</v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-title >Home</v-list-item-title>
-                </v-list-item>
-<v-list-item>
-                  <v-list-item-icon>
-                    <v-icon>mdi-account</v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-title>Account</v-list-item-title>
-                </v-list-item>
-              </v-list-item-group>
-            </v-list>
-          </v-navigation-drawer>
 
+        <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn  to="/information" text>Information</v-btn>
+          <v-btn  to="/classes" text>Classes</v-btn>
+           <v-btn  to="/gradings" text>Gradings</v-btn>
+        </v-toolbar-items>
+    </v-app-bar>
+
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      top
+      temporary
+    >
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item-group
+          active-class="deep-purple--text text--accent-4"
+        >
+          <v-list-item>
+            <v-list-item-title> <nuxt-link 
+                to="/" class="" aria-label="Home Button"> Home
+            </nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title>  <nuxt-link 
+                to="/classes" class="" aria-label="Classes"> Classes
+            </nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+             <v-list-item-title>  <nuxt-link 
+                to="/gradings" class="" aria-label="Gradings"> Gradings</nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title to=""><nuxt-link 
+                to="mailto:voodooservice@gmail.com" class="" aria-label="Gradings"> Email
+            </nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+
+
+  
 </main>
    
 </template>
@@ -75,6 +103,7 @@ export default {
 }
 .home {
   cursor: pointer;
+  max-height: 60px;
 }
 /* header {background:#EEE;display:flex;justify-content:space-between;}
 .logo {font-size:2em;line-height:50px;padding:0 0.5em;}

@@ -6,16 +6,16 @@
               {{postApp.title}}
             </template>
       </PageHeader>
-        <MainView linkType="information" v-if="!postApp.postDetails2">
+        <MainView linkType="classes" v-if="!postApp.postDetails2">
               <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
         </MainView>
 
-         <MainViewsplit linkType="information" v-else>
+         <MainViewsplit linkType="classes" v-else>
                 <template v-slot:left>
              <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
             </template>
                <template v-slot:right>
-             <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
+             <div v-html="removeVoodoo(postApp.postDetails2.html)"></div>
             </template>
               
         </MainViewsplit>
@@ -35,8 +35,8 @@ export default {
     currentitem: null 
   }),
   methods: {
-      removeVoodoo(string) {
-      var find = 'http://voodoogym.co.uk/';
+    removeVoodoo(string) {
+      var find = 'http://voodoogym.co.uk';
       var re = new RegExp(find, 'g');
       var str = string.replace(re, '');
 
@@ -45,7 +45,7 @@ export default {
   },
   async asyncData({ app, params }) {
       const client = app.apolloProvider.defaultClient;
-      const slug = params.slug;
+      const slug = "classes";
       const res = await client.query({
         query: GET_SINGLE_POSTS,
         variables: {
