@@ -63,4 +63,8 @@
    left: 50%;
   transform: translate(-50%, -50%);
 }
+.inline-block {
+  display: inline-block;
+  margin-right: 5px;
+}
 </style>

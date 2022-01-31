@@ -6,7 +6,7 @@
               {{postApp.title}}
             </template>
       </PageHeader>
-        <MainView linkType="information" v-if="!postApp.postDetails2">
+        <MainView linkType="information" v-if="!postApp.postDetails2" class="inlineImg">
               <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
         </MainView>
 
@@ -92,4 +92,9 @@ export default {
 h2, b {
   color: #f06d2f;
 }
+.inlineImg img{
+ display: inline-block;
+  margin-right: 5px;
+}
+
 </style>
