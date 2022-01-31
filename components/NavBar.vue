@@ -29,9 +29,10 @@
       <v-list
         nav
         dense
+        class="mobilemenu"
       >
         <v-list-item-group
-          active-class="deep-purple--text text--accent-4"
+          active-class="deep-orange--text text--accent-4"
         >
           <v-list-item>
             <v-list-item-title> <nuxt-link 
@@ -55,7 +56,7 @@
 
           <v-list-item>
             <v-list-item-title to=""><nuxt-link 
-                to="mailto:voodooservice@gmail.com" class="" aria-label="Gradings"> Email
+                to="/information" class="" aria-label="Information"> Information
             </nuxt-link>
             </v-list-item-title>
           </v-list-item>
@@ -104,6 +105,10 @@ export default {
 .home {
   cursor: pointer;
   max-height: 60px;
+}
+.mobilemenu a{
+  color: white;
+  font-size: 16px;
 }
 /* header {background:#EEE;display:flex;justify-content:space-between;}
 .logo {font-size:2em;line-height:50px;padding:0 0.5em;}
