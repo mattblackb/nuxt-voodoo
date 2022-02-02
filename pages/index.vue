@@ -38,7 +38,7 @@
                Standard View
              </v-row>
               <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
-                <v-col >
+                <v-col  cols="12">
                   <div v-html="postApp.postFooter.html" class="hundres"></div>
                 </v-col>
               </v-row>
@@ -100,16 +100,18 @@ export default {
 
 <style scoped>
 
-   .hundres img {
-            max-width: 100%;
-            display: none;
-         }
+
 @media (max-width: 1275px) {
         img{
     max-width: 100%!important;
     width: 100%;
 
         }
+         .hundres img {
+            max-width: 100%!important;
+             width: 100%!important;
+            display: none;
+         }
          }
       
 </style>

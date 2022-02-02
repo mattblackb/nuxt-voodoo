@@ -2,15 +2,15 @@
   
   <div class="orange  pa-5 mb-5">
       <v-row>
-        <v-col  sm="12">
+        <v-col cols="12" xs="12" sm="12">
               <h2><slot name="header"></slot></h2>
           </v-col>
         </v-row>
           <v-row>
-           <v-col sm="12" md="6">
+           <v-col cols="12" sm="12" md="6">
               <slot name="left"></slot>
           </v-col>
-         <v-col  sm="12" md="6" class="hundred flex-wrap">
+         <v-col  cols="12" sm="12" md="6" class="hundred flex-wrap">
                <slot name="right"></slot>
           </v-col>
          </v-row>

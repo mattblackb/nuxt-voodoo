@@ -1,6 +1,6 @@
 <template>
   <v-app id="page-container">
-         <div style="margin-bottom: 180px">
+         <div style="margin-bottom: 335px">
         <v-container >
                     <NavBar />
            </v-container>
@@ -58,7 +58,7 @@
 #footer {
   position: absolute;
   bottom: 0;
-  height: 2.5rem;            /* Footer height */
+  height: 14.5rem;            /* Footer height */
   padding: 40px 0px;
    left: 50%;
   transform: translate(-50%, -50%);
