@@ -6,7 +6,8 @@
            {{postApp.title}}
         </template>
          <template v-slot:subHeader>
-            07776 376379
+           email:<br/>
+           voodooservice@gmail.com
         </template>
         </PageHeader>
           <v-container>    
