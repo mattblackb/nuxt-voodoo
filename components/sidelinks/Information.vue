@@ -3,8 +3,8 @@
             <h2>Similar pages</h2>
 
                 <ul v-if="linkType == 'information'">
-                    <li><n-link to="/information/information/" no-prefetch>Information</n-link></li>
-                    <li><n-link to="/information/joinvoodoo" no-prefetch>Join Voodoo</n-link></li>
+                    <li><n-link to="/information/" no-prefetch>Information</n-link></li>
+               
                     <li><n-link to="/information/venues/" no-prefetch>Find Us</n-link></li>
                      <li><n-link to="/information/your-coaches/" no-prefetch>Your Coaches</n-link></li>
                     <li><n-link to="/classes/events/" no-prefetch>Events</n-link></li>
