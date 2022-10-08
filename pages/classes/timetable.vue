@@ -28,7 +28,12 @@
       </v-row>
     <iframe style="border-width: 0;" src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=webape2%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FLondon" width="760" height="600" frameborder="0" scrolling="no"></iframe>
 
-
+    <div
+            id="clubrightcalendar"
+            data-clubname="voodoocombat"
+            data-classes=""
+          ></div>
+          <script src="https://voodoocombat.clubright.co.uk/js/calendar.js"></script>
         </MainView>
 
     

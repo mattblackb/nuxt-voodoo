@@ -1,28 +1,54 @@
 <template>
   <v-app id="page-container">
-         <div style="margin-bottom: 335px">
-        <v-container >
-                    <NavBar />
-           </v-container>
-                    <nuxt />
-      <v-container id="footer" class="mt-10" >     
-          <Footer />
+    <v-btn
+      dark
+      large
+      color="white"
+      text
+      fixed
+      right
+      top
+      class="joinnow"
+      href="https://voodoocombat.clubright.co.uk/register"
+      target="_blank"
+    >
+      Join now
+    </v-btn>
+    <div style="margin-bottom: 335px">
+      <v-container>
+        <NavBar />
       </v-container>
-         </div>
-</v-app>
-   
+      <nuxt />
+      <v-row>
+        <v-col cols="12" class="text-center"> </v-col>
+      </v-row>
+      <v-container id="footer" class="mt-10">
+        <Footer />
+      </v-container>
+    </div>
+  </v-app>
 </template>
 
-
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
-    #app{
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-    }
-    body{
-      background-color: #121212;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+.calendarDay {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #f06d2f;
+}
+.text-center a {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+#app {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #121212;
+}
 
 .header {
   background-color: darkgray;
@@ -34,11 +60,13 @@
   background-size: cover;
 }
 .header .col {
-    min-width: 250px;
+  min-width: 250px;
 }
-@media (max-width: 396px) { .header .col {
-    min-width: 100%!important;
-} }
+@media (max-width: 396px) {
+  .header .col {
+    min-width: 100% !important;
+  }
+}
 .header img {
   max-width: 100%;
 }
@@ -52,19 +80,24 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem; /* Footer height */
 }
 
 #footer {
   position: absolute;
   bottom: 0;
-  height: 14.5rem;            /* Footer height */
+  height: 14.5rem; /* Footer height */
   padding: 40px 0px;
-   left: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .inline-block {
   display: inline-block;
   margin-right: 5px;
+}
+.joinnow {
+  margin-right: 15px;
+  background-color: coral;
+  font-weight: bold;
 }
 </style>
