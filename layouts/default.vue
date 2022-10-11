@@ -100,4 +100,8 @@ body {
   background-color: coral;
   font-weight: bold;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 </style>
