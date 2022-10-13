@@ -1,19 +1,5 @@
 <template>
   <v-app id="page-container">
-    <v-btn
-      dark
-      large
-      color="white"
-      text
-      fixed
-      right
-      top
-      class="joinnow"
-      href="https://voodoocombat.clubright.co.uk/register"
-      target="_blank"
-    >
-      Join now
-    </v-btn>
     <div style="margin-bottom: 335px">
       <v-container>
         <NavBar />
@@ -31,6 +17,12 @@
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+h4 {
+  color: #f06d2f;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
 .calendarDay {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -98,7 +90,7 @@ body {
 .joinnow {
   margin-right: 15px;
   background-color: coral;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 img {
   max-width: 100%;
