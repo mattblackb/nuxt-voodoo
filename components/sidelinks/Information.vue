@@ -14,9 +14,9 @@
 
     <ul v-if="linkType == 'classes'">
       <li><n-link to="/classes/timetable/" no-prefetch>Timetable</n-link></li>
-      <li>
+      <!-- <li>
         <n-link to="/classes/gym-closures/" no-prefetch>Gym Closures</n-link>
-      </li>
+      </li> -->
       <li>
         <n-link to="/classes/childrens-classes-children/" no-prefetch
           >Children classes</n-link
@@ -30,11 +30,11 @@
       <li>
         <n-link to="/classes/kickboxing/" no-prefetch>Striking Program</n-link>
       </li>
-      <li>
+      <!-- <li>
         <n-link to="/classes/adult-classes" no-prefetch
           >Other Adult classes</n-link
         >
-      </li>
+      </li> -->
       <li>
         <n-link to="/classes/personal-training/" no-prefetch
           >Personal training</n-link
