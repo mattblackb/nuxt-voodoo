@@ -60,6 +60,17 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
+      <v-btn
+        dark
+        large
+        color="white"
+        text
+        class="joinnow"
+        href="https://voodoocombat.clubright.co.uk/register"
+        target="_blank"
+      >
+        Join now
+      </v-btn>
     </v-navigation-drawer>
   </main>
 </template>
