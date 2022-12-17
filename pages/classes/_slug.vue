@@ -31,6 +31,8 @@ export default {
     currentitem: null,
   }),
   methods: {
+    //Compare two dates and return time between them
+
     removeVoodoo(string) {
       var find = "http://voodoogym.co.uk";
       var re = new RegExp(find, "g");

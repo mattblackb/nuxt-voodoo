@@ -1,48 +1,103 @@
 <template>
- 
-
   <v-container>
-    <div >
-      <PageHeader :imageurl="'/voodoo_logo.png'">
-            <template v-slot:header>
-                Voodoo Timetable
-            </template>
+    <div v-if="postApp">
+      <PageHeader :imageurl="checkforImage()">
+        <template v-slot:header>
+          {{ postApp.title }}
+        </template>
       </PageHeader>
-        <MainView linkType="classes" >
-                 <p>Timetable for Voodoo Combat; Find out exactly when every Martial Art class, training course, development opportunity and social event takes place throughout the year and never miss one again. Click on an event and see more detail or even copy it directly to your calendar.</p>
-                       <a href="/Timetables.pdf" target="_blank">
-                        <img src="~/static/timetable.png">
-                        </a>
-                       
-                      </nuxt-link>
-                      <v-row class="mt-4 mb-4">
- <v-btn
-        outlined
-        rounded
-        text
-        target="_blank"
-        href= "/Timetables.pdf"
-      >
-        View as PDF
-      </v-btn>
-      </v-row>
-    <iframe style="border-width: 0;" src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=webape2%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FLondon" width="760" height="600" frameborder="0" scrolling="no"></iframe>
+      <MainView linkType="classes" v-if="!postApp.postDetails2">
+        <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
+      </MainView>
 
-    <div
-            id="clubrightcalendar"
-            data-clubname="voodoocombat"
-            data-classes=""
-          ></div>
-          <script src="https://voodoocombat.clubright.co.uk/js/calendar.js"></script>
-        </MainView>
-
-    
+      <MainViewsplit linkType="classes" v-else>
+        <template v-slot:left>
+          <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
+          <iframe
+            style="border-width: 0"
+            src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=webape2%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FLondon"
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </template>
+        <template v-slot:right>
+          <div v-html="removeVoodoo(postApp.postDetails2.html)"></div>
+        </template>
+      </MainViewsplit>
     </div>
-
-
   </v-container>
 </template>
 
-<style scoped>
- img { max-width: 100%}
+<script>
+import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
+
+export default {
+  data: () => ({
+    loading: 0,
+    currentitem: null,
+  }),
+  methods: {
+    removeVoodoo(string) {
+      var find = "http://voodoogym.co.uk";
+      var re = new RegExp(find, "g");
+      var str = string.replace(re, "");
+      return str;
+    },
+    checkforImage() {
+      if (this.postApp.mainheaderImage) {
+        return this.postApp.mainheaderImage.url;
+      } else {
+        return "/voodoo_logo.png";
+      }
+    },
+  },
+  async asyncData({ app, params }) {
+    const client = app.apolloProvider.defaultClient;
+    const slug = "timetable";
+    const res = await client.query({
+      query: GET_SINGLE_POSTS,
+      variables: {
+        slug,
+      },
+    });
+    const { postApp } = res.data;
+
+    return {
+      postApp,
+      slug,
+    };
+  },
+  head() {
+    return {
+      title: this.postApp.metaTitle,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.postApp.metaDescription,
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style>
+.sideImage img {
+  max-width: 55% !important;
+  width: 55% !important;
+}
+img {
+  margin-top: 10px !important;
+}
+.maintext img {
+  max-width: 100%;
+  height: auto;
+}
+h2,
+b {
+  color: #f06d2f;
+}
 </style>
