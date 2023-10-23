@@ -6,8 +6,10 @@
         {{ postApp.title }}
       </template>
       <template v-slot:subHeader>
-        email:<br />
-        voodooservice@gmail.com
+        <h4> 
+        email:<a href="mailto:voodooservice@gmail.com">
+        voodooservice@gmail.com</a>
+        </h4>
       </template>
     </PageHeader>
     <v-container>
