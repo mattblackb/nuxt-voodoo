@@ -16,7 +16,7 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap"); */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 h4 {
