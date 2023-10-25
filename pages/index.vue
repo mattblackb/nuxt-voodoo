@@ -6,9 +6,19 @@
         {{ postApp.title }}
       </template>
       <template v-slot:subHeader>
-        <h4> 
-        email:<a href="mailto:voodooservice@gmail.com">
-        voodooservice@gmail.com</a>
+        <ul>
+          <li>We are Martial Arts</li>
+          <li>We are Brazilian Jiu Jitsu</li>
+          <li>We are Submission / Catch Wrestling</li>
+          <li>We are Thai / Kick Boxing</li>
+          <li>We are Boxing (for Kickboxers)</li>
+          <li>We are Shotokan Karate Do</li>
+          <li>We are Self Defence</li>
+        </ul>
+        <h4>
+          email:<a href="mailto:voodooservice@gmail.com">
+            voodooservice@gmail.com</a
+          >
         </h4>
       </template>
     </PageHeader>
@@ -38,7 +48,14 @@
           </template>
         </SplitView>
       </v-row>
-      <v-row v-else> Standard View </v-row>
+      <v-row>
+        <v-col cols="12">
+          <div class="d-flex justify-center">
+            <h2 class="">Our Coaches</h2>
+          </div>
+        </v-col>
+      </v-row>
+      <Coaches />
       <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
         <v-col cols="12">
           <div v-html="postApp.postFooter.html" class="hundres"></div>
