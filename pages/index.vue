@@ -115,6 +115,12 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+</style>
+</style>
+<style scoped>
 @media (max-width: 1275px) {
   img {
     max-width: 100% !important;
