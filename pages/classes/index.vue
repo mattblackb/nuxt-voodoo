@@ -70,7 +70,7 @@
         </v-col>
 
         <v-col cols="12" sm="12" md="4">
-          <v-img src="kids.jpg" cover max-height="425"></v-img>
+          <v-img src="/kids.jpg" cover max-height="425"></v-img>
         </v-col>
       </v-row>
 
@@ -81,7 +81,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="12" md="4">
-          <v-img src="adults.jpeg" cover max-height="425"></v-img>
+          <v-img src="/adults.jpeg" cover max-height="425"></v-img>
         </v-col>
         <v-col cols="12" sm="12" md="8">
           <div>
@@ -151,7 +151,7 @@
         </v-col>
 
         <v-col cols="12" sm="12" md="4">
-          <v-img src="kids.jpg" cover max-height="425"></v-img>
+          <v-img src="/kids.jpg" cover max-height="425"></v-img>
         </v-col>
       </v-row>
 
