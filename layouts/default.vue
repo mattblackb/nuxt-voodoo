@@ -151,4 +151,7 @@ img {
 .orange ul li {
   color: white !important;
 }
+h3 {
+  font-size: 36px;
+}
 </style>

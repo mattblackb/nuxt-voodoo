@@ -10,7 +10,7 @@
           >
         </p>
       </v-col>
-      <v-col class="justify-center align-center d-flex">
+      <v-col class="justify-center align-center d-flex" v-if="imageurl">
         <!-- <nuxt-img src="~/assets/paper.png" /> -->
         <v-img
           cover

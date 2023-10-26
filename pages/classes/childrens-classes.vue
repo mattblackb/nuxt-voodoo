@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <div v-if="postApp">
-      <PageHeader :imageurl="checkforImage()">
+      <PageHeader>
         <template v-slot:header> CHILDRENS CLASSES </template>
         <template v-slot:subHeader>
           <!-- <ul>
@@ -369,7 +369,7 @@ export default {
   },
   head() {
     return {
-      title: this.postApp.metaTitle,
+      title: "Childrens Martial arts Classes at Voodoo Combat",
       meta: [
         {
           hid: "description",

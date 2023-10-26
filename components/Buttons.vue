@@ -1,6 +1,11 @@
 <template>
   <span>
     <v-btn color="gray" class="ma-2 white--text">
+      <a href="/timetable"> Timetable </a>
+
+      <v-icon right dark>mdi-notebook </v-icon>
+    </v-btn>
+    <v-btn color="gray" class="ma-2 white--text">
       <a href="/information"> INFORMATION </a>
 
       <v-icon right dark>mdi-chat-question </v-icon>

@@ -24,11 +24,52 @@
     </PageHeader>
     <v-container>
       <SplitViewHead>
-        <template v-slot:header>
-          {{ postApp.headerTitle }}
-        </template>
+        <template v-slot:header> Welcome to Voodoo Combat </template>
         <template v-slot:left>
-          <div v-html="postApp.headerText.html"></div>
+          <div data-v-529bde94="">
+            <p data-v-529bde94="">
+              You can
+              <a
+                data-v-529bde94=""
+                title="/information/venues"
+                href="/information/venues"
+                >find us</a
+              >
+              in the centre of Macclesfield delivering the very best of
+              <a data-v-529bde94="" title="/classes" href="/classes"
+                >Martial Arts</a
+              >,
+              <a
+                data-v-529bde94=""
+                title="/classes/adult-classes"
+                href="/classes/adult-classes"
+                >self defence</a
+              >
+              and
+              <a
+                data-v-529bde94=""
+                title="/classes/personal-training"
+                href="/classes/personal-training"
+                >personal training</a
+              >.
+            </p>
+            <p data-v-529bde94="">
+              ⁠125A Chestergate, Macclesfield SK11 6DP<br
+                data-v-529bde94=""
+              />voodooservice@gmail.com
+            </p>
+            <p data-v-529bde94="">
+              We can help you build your fitness, confidence, ability to defend
+              yourself and the body you’ve always wanted in a fun, safe but
+              challenging environment. Classes for the whole family!
+            </p>
+            <h4 data-v-529bde94="">
+              <br data-v-529bde94="" />FREE...<br
+                data-v-529bde94=""
+              />INDUCTION, MEMBERSHIP AND INSURANCE!
+            </h4>
+            <p data-v-529bde94=""></p>
+          </div>
         </template>
         <template v-slot:right>
           <img
@@ -37,7 +78,7 @@
           />
         </template>
       </SplitViewHead>
-      <v-row> </v-row>
+      <v-row> <TimetableToday /> </v-row>
       <v-row v-if="postApp.postDetails2.html">
         <SplitView>
           <template v-slot:left>
