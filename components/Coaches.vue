@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
         <v-img src="davebw.png"></v-img>
 
@@ -33,7 +33,7 @@
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
         <v-img src="amandabw.png"></v-img>
 
@@ -66,7 +66,7 @@
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
         <v-img src="pablobw.png"></v-img>
 
@@ -102,7 +102,7 @@
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
         <v-img src="joshbw.png"></v-img>
 

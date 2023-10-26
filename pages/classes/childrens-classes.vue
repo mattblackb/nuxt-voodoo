@@ -410,8 +410,4 @@ img {
   max-width: 100%;
   height: auto;
 }
-h2,
-b {
-  color: #f06d2f;
-}
 </style>

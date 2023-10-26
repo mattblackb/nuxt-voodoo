@@ -28,7 +28,7 @@
       </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
-    <v-btn color="orange" class="ma-2 white--text">
+    <v-btn class="ma-2 white--text backOrange">
       <a
         href="https://voodoocombat.clubright.co.uk/register"
         target="_blank"
@@ -48,6 +48,9 @@ a {
 }
 .whiteLink {
   color: white !important;
+}
+.backOrange {
+  background-color: #f06d2f !important;
 }
 </style>
 

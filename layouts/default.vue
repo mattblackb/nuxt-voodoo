@@ -46,6 +46,10 @@ h2 {
 .whiteText {
   color: white !important;
 }
+h2,
+b {
+  color: #f06d2f !important;
+}
 h1,
 h2,
 h3,
@@ -145,6 +149,6 @@ img {
 .orange h4,
 .orange p,
 .orange ul li {
-  color: white;
+  color: white !important;
 }
 </style>

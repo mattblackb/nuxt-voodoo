@@ -222,21 +222,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.sideImage img {
-  max-width: 55% !important;
-  width: 55% !important;
-}
-img {
-  margin-top: 10px !important;
-}
-.maintext img {
-  max-width: 100%;
-  height: auto;
-}
-h2,
-b {
-  color: #f06d2f;
-}
-</style>
