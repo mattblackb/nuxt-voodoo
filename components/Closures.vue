@@ -6,9 +6,7 @@
         <p>
           All of Voodoo Combats children's and adults planned gym closures are
           listed here. They may be subject to change so please always check well
-          in advance and look at our
-          <a title="/classes/timetable/" href="/classes/timetable/">Timetable</a
-          >&nbsp;for accurate holidays.
+          in advance and look at our Timetable for accurate holidays.
         </p>
       </v-col>
       <v-col cols="12" sm="12" md="6">
