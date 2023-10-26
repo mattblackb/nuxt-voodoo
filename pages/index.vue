@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Loop around unique categories -->
-    <PageHeader :imageurl="checkforImage()">
+    <PageHeader imageurl="/BJJ.jpeg">
       <template v-slot:header>
         {{ postApp.title }}
       </template>
@@ -142,12 +142,14 @@ export default {
   },
   head() {
     return {
-      title: this.postApp.metaTitle,
+      title:
+        "Voodoo Gym Macclesfield | Kickboxing Macclesfield | BJJ Macclesfield",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: this.postApp.metaDescription,
+          content:
+            "Voodoo Gym Macclesfield | Kickboxing Macclesfield | BJJ Macclesfield",
         },
       ],
     };

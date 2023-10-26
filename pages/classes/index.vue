@@ -1,10 +1,8 @@
 <template>
   <v-container>
-    <div v-if="postApp">
-      <PageHeader :imageurl="checkforImage()">
-        <template v-slot:header>
-          {{ postApp.title }}
-        </template>
+    <div>
+      <PageHeader>
+        <template v-slot:header> VOODOO CLASSES </template>
         <template v-slot:subHeader>
           <!-- <ul>
             <li>We are Martial Arts</li>
@@ -192,30 +190,31 @@ export default {
       }
     },
   },
-  async asyncData({ app, params }) {
-    const client = app.apolloProvider.defaultClient;
-    const slug = "classes";
-    const res = await client.query({
-      query: GET_SINGLE_POSTS,
-      variables: {
-        slug,
-      },
-    });
-    const { postApp } = res.data;
+  // async asyncData({ app, params }) {
+  //   const client = app.apolloProvider.defaultClient;
+  //   const slug = "classes";
+  //   const res = await client.query({
+  //     query: GET_SINGLE_POSTS,
+  //     variables: {
+  //       slug,
+  //     },
+  //   });
+  //   const { postApp } = res.data;
 
-    return {
-      postApp,
-      slug,
-    };
-  },
+  //   return {
+  //     postApp,
+  //     slug,
+  //   };
+  // },
   head() {
     return {
-      title: this.postApp.metaTitle,
+      title:
+        "Voodoo Combat Classes Macclesfield | Kids Martial Arts Macclesfield | Brazilian Jiu Jitsu Macclesfield ",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: this.postApp.metaDescription,
+          content: "Voodoo Combat Classes Macclesfield",
         },
       ],
     };
