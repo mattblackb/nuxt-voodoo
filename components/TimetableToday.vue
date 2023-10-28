@@ -1,68 +1,77 @@
 <template>
   <v-container>
-    <v-row>
-      <!-- <v-col cols="12">
+    <div v-if="checkday()">
+      <v-row>
+        <!-- <v-col cols="12">
           <h4>Filters</h4>
         </v-col> -->
-      <v-col cols="12">
-        <h2>Todays timetable</h2>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col cols="12" md="6" sm="12">
-        <h3>Adult Classes</h3>
+        <v-col cols="12">
+          <h2>Todays timetable</h2>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12" md="6" sm="12">
+          <h3>Adult Classes</h3>
 
-        <!-- loop around this.adultClasses -->
-        <div v-for="item in adultClasses" :key="item.day">
-          <!-- <h3 :class="checkToday(item.day)">{{ item.day }}</h3> -->
+          <!-- loop around this.adultClasses -->
+          <div v-for="item in adultClasses" :key="item.day">
+            <!-- <h3 :class="checkToday(item.day)">{{ item.day }}</h3> -->
 
-          <div
-            v-for="classItem in orderClassArray(item.classes)"
-            :key="classItem.Title"
-          >
-            <div :class="isStriking(classItem.striking)">
-              <div class="time">
-                {{ classItem.startTime }} - {{ classItem.endTime }}
-                {{ ifAMReturnAM(classItem.am) }}
-              </div>
-              <div class="titleTime">{{ classItem.Title }}</div>
-              <!-- {{ classItem.Title }} | {{ classItem.startTime }} -
+            <div
+              v-for="classItem in orderClassArray(item.classes)"
+              :key="classItem.Title"
+            >
+              <div :class="isStriking(classItem.striking)">
+                <div class="time">
+                  {{ classItem.startTime }} - {{ classItem.endTime }}
+                  {{ ifAMReturnAM(classItem.am) }}
+                </div>
+                <div class="titleTime">{{ classItem.Title }}</div>
+                <!-- {{ classItem.Title }} | {{ classItem.startTime }} -
                 {{ classItem.endTime }}  -->
-            </div>
-          </div>
-        </div>
-      </v-col>
-
-      <v-col cols="12" md="6" sm="12">
-        <h3>Kids Classes</h3>
-        <div v-for="item in kidsClasses" :key="item.day">
-          <!-- <h3 :class="checkToday(item.day)">{{ item.day }}</h3> -->
-
-          <div
-            v-for="classItem in orderClassArray(item.classes)"
-            :key="classItem.Title"
-          >
-            <div :class="isKids(classItem.age)">
-              <div class="time">
-                {{ classItem.startTime }} - {{ classItem.endTime }}
-                {{ ifAMReturnAM(classItem.am) }}
               </div>
-              <div class="titleTime">{{ classItem.Title }}</div>
             </div>
           </div>
-        </div>
-      </v-col>
-      <v-col cols="12">
-        <div class="key">
-          <span class="rectKey Striking"></span> Striking
-          <span class="rectKey Grappling"></span> Grappling
-          <span class="rectKey ninja"></span> Ninjas<span
-            class="rectKey junior"
-          ></span>
-          Junior <span class="rectKey cadet"></span> Cadet
-        </div>
-      </v-col>
-    </v-row>
+        </v-col>
+
+        <v-col cols="12" md="6" sm="12">
+          <h3>Kids Classes</h3>
+          <div v-for="item in kidsClasses" :key="item.day">
+            <!-- <h3 :class="checkToday(item.day)">{{ item.day }}</h3> -->
+
+            <div
+              v-for="classItem in orderClassArray(item.classes)"
+              :key="classItem.Title"
+            >
+              <div :class="isKids(classItem.age)">
+                <div class="time">
+                  {{ classItem.startTime }} - {{ classItem.endTime }}
+                  {{ ifAMReturnAM(classItem.am) }}
+                </div>
+                <div class="titleTime">{{ classItem.Title }}</div>
+              </div>
+            </div>
+          </div>
+        </v-col>
+        <v-col cols="12">
+          <div class="key">
+            <span class="rectKey Striking"></span> Striking
+            <span class="rectKey Grappling"></span> Grappling
+            <span class="rectKey ninja"></span> Ninjas<span
+              class="rectKey junior"
+            ></span>
+            Junior <span class="rectKey cadet"></span> Cadet
+          </div>
+        </v-col>
+      </v-row>
+    </div>
+    <!-- <div v-else>
+      <v-row>
+        <v-col cols="12">
+          <h2>Sorry there are no classes today</h2>
+        </v-col>
+      </v-row>
+    </div> -->
   </v-container>
 </template>
 
@@ -85,6 +94,27 @@ export default {
       var n = d.toLocaleDateString("gb-GB", { weekday: "long" });
       if (n === day) {
         return "today";
+      }
+    },
+    checkday() {
+      var d = new Date();
+      var n = d.toLocaleDateString("gb-GB", { weekday: "long" });
+      if (n === "Monday") {
+        return true;
+      } else if (n === "Tuesday") {
+        return true;
+      } else if (n === "Wednesday") {
+        return true;
+      } else if (n === "Thursday") {
+        return true;
+      } else if (n === "Friday") {
+        return true;
+      } else if (n === "Saturday") {
+        return false;
+      } else if (n === "Sunday") {
+        return true;
+      } else {
+        return false;
       }
     },
     removeStriking(arr) {
