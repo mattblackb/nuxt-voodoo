@@ -12,7 +12,7 @@
     </v-btn>
     <v-btn color="gray" class="ma-2 white--text">
       <a href="/classes"> CLASSES </a>
-      <v-icon right dark>mdi-notebook </v-icon>
+      <v-icon right dark>mdi-weight-lifter </v-icon>
     </v-btn>
     <v-btn color="gray" class="ma-2 white--text">
       <a href="https://www.ebay.co.uk/usr/voodoo-gear" target="_blank">

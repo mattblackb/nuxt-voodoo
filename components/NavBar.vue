@@ -17,6 +17,7 @@
 
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn to="/information" text>Information</v-btn>
+        <v-btn to="/timetable" text>TimeTable</v-btn>
         <v-btn to="/classes" text>Classes</v-btn>
         <v-btn
           dark
@@ -35,15 +36,31 @@
     <v-navigation-drawer v-model="drawer" absolute top temporary>
       <v-list nav dense class="mobilemenu">
         <v-list-item-group active-class="deep-orange--text text--accent-4">
-          <v-list-item>
+          <v-list-item prepend-icon="mdi-view-dashboard">
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
             <v-list-item-title>
               <nuxt-link to="/" class="" aria-label="Home Button">
                 Home
               </nuxt-link>
             </v-list-item-title>
           </v-list-item>
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-notebook</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>
+              <nuxt-link to="/timetable" class="" aria-label="Classes">
+                Timetable
+              </nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
 
           <v-list-item>
+            <v-list-item-icon>
+              <v-icon> mdi-weight-lifter</v-icon>
+            </v-list-item-icon>
             <v-list-item-title>
               <nuxt-link to="/classes" class="" aria-label="Classes">
                 Classes
@@ -52,6 +69,10 @@
           </v-list-item>
 
           <v-list-item>
+            <v-list-item-icon>
+              <v-icon> mdi-chat-question</v-icon>
+            </v-list-item-icon>
+
             <v-list-item-title to=""
               ><nuxt-link to="/information" class="" aria-label="Information">
                 Information
@@ -60,17 +81,19 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
-      <v-btn
-        dark
-        large
-        color="white"
-        text
-        class="joinnow"
-        href="https://voodoocombat.clubright.co.uk/register"
-        target="_blank"
-      >
-        Join now
-      </v-btn>
+      <v-row class="mt-3">
+        <v-btn
+          dark
+          large
+          color="white"
+          text
+          class="joinnow"
+          href="https://voodoocombat.clubright.co.uk/register"
+          target="_blank"
+        >
+          Join now
+        </v-btn>
+      </v-row>
     </v-navigation-drawer>
   </main>
 </template>

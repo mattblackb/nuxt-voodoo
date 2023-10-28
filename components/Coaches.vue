@@ -57,9 +57,12 @@
 
             <v-card-text>
               <br />
-              Dave is a Martial Arts expert, training since 1983, accumulating
-              vast knowledge and skill in many of the mainstream styles and
-              experienced in many lesser known ones.
+              Amanda is a personal training specialist, owner and coach at Your
+              Coach 121, and martial arts consultant to Voodoo Combat.
+              <br />
+              Amanda is a REP’s level 4 Master Personal Trainer specialising in
+              Diabetes and Obesity as well as being a Sports Nutritionist
+              helping you achieve any fitness or dietary goals you might have.
             </v-card-text>
           </div>
         </v-expand-transition>

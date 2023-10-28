@@ -82,10 +82,58 @@
       <v-row v-if="postApp.postDetails2.html">
         <SplitView>
           <template v-slot:left>
-            <div v-html="postApp.postDetails.html"></div>
+            <div data-v-2a183b29="" data-v-d9f20ad8="">
+              <h2>ADULTS AT VOODOO</h2>
+              <p>
+                Our reputation is that of creating a welcoming, family feel
+                about the gym supported by a great team and facility. We love to
+                help people achieve their personal goals and experience
+                something special that will last a lifetime.
+              </p>
+              <p>
+                We teach a range of martial arts;
+                <a title="Descriptions of all our classes." href="/classes"
+                  >‘Brazilian Jiu Jitsu (BJJ)’, ‘Submission / Catch Wrestling’,
+                  ‘Muay Thai / Kick Boxing’, ‘Boxing (for Kickboxers)’ and 'Self
+                  Defence' </a
+                >for all ages and levels.
+              </p>
+              <p>
+                Teaching effective ‘live’ martial arts to the ordinary person
+                lies at the heart of our gym, utilizing cutting edge coaching
+                techniques usually reserved for elite athletes, creating a safe
+                environment that accelerates personal development.
+              </p>
+            </div>
           </template>
           <template v-slot:right>
-            <div v-html="postApp.postDetails2.html"></div>
+            <div data-v-2a183b29="" data-v-d9f20ad8="">
+              <h2>KIDS AT VOODOO</h2>
+              <p>
+                We deliver several
+                <a
+                  title="Descriptions of all our kids classes."
+                  href="/classes/childrens-classes/"
+                  >children’s classes</a
+                >
+                to suit all possible needs, our focus is for your child’s
+                learning, keeping fit and active, building confidence, becoming
+                bully proof and above all to having FUN.
+              </p>
+              <p>
+                For children from 4 to 7 years old we have infant classes, our
+                Voodoo Ninja and Samurai, and for the 8 to 11 year old children
+                we have our Junior classes and then for the 12 to 15 year olds
+                we have our Cadet classes.
+              </p>
+              <p>
+                All our fully qualified coaches are First Aid and Safeguarding
+                trained and have been subjected to a Disclosure and Barring
+                Service (DBS) check (was CRB check) to ensure your child’s
+                safety.
+              </p>
+              <p></p>
+            </div>
           </template>
         </SplitView>
       </v-row>
