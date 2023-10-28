@@ -376,13 +376,13 @@ export default {
   head() {
     return {
       title:
-        "Grappling Program | BJJ Programme Maclesfield |  Voodoo Combat Macclesfield",
+        "Brazilian Jiu Jitsu Classes in Macclesfield | Voodoo Combat Macclesfield",
       meta: [
         {
           hid: "description",
           name: "description",
           content:
-            "Grappling Program | BJJ Programme Maclesfield |  Voodoo Combat Macclesfield",
+            "Dive into the world of Brazilian Jiu Jitsu in Macclesfield. Our expert instructors offer top-notch training for all skill levels. Join us and master the art!",
         },
       ],
     };

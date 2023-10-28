@@ -359,13 +359,13 @@ export default {
   head() {
     return {
       title:
-        "Striking Program | Kickboxing Programme Maclesfield |  Voodoo Combat Macclesfield",
+        "Kickboxing Classes in Macclesfield, Cheshire| Voodoo Combat Macclesfield",
       meta: [
         {
           hid: "description",
           name: "description",
           content:
-            "Striking Program | Kickboxing Programme Maclesfield |  Voodoo Combat Macclesfield",
+            "Elevate your fitness and skills with our dynamic Kickboxing classes in macclesfield, Cheshire. Expert trainers, high-energy workouts. Join us for a knockout experience!",
         },
       ],
     };

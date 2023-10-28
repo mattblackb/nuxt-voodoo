@@ -191,13 +191,13 @@ export default {
   head() {
     return {
       title:
-        "Voodoo Gym Macclesfield | Kickboxing Macclesfield | BJJ Macclesfield",
+        "Macclesfield Kickboxing & Brazilian Jiu Jitsu Classes | Voodoo Combat",
       meta: [
         {
           hid: "description",
           name: "description",
           content:
-            "Voodoo Gym Macclesfield | Kickboxing Macclesfield | BJJ Macclesfield",
+            "Discover top-notch Kickboxing and Brazilian Jiu Jitsu classes in Macclesfield. Our expert instructors provide dynamic training for all skill levels. Join us today!",
         },
       ],
     };
