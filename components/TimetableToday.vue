@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div v-if="checkday()">
+    <div>
       <v-row>
         <!-- <v-col cols="12">
           <h4>Filters</h4>

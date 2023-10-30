@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- Loop around unique categories -->
-    <PageHeader imageurl="/BJJ.jpeg">
+    <PageHeader imageurl="BJJ.jpeg">
       <template v-slot:header>
         {{ postApp.title }}
       </template>

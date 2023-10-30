@@ -2,7 +2,7 @@
   <v-row>
     <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="davebw.png"></v-img>
+        <v-img src="/davebw.png"></v-img>
 
         <v-card-title> Dave Kari </v-card-title>
 
@@ -35,7 +35,7 @@
 
     <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="amandabw.png"></v-img>
+        <v-img src="/amandabw.png"></v-img>
 
         <v-card-title> Amanda Kari </v-card-title>
 
@@ -71,7 +71,7 @@
 
     <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="pablobw.png"></v-img>
+        <v-img src="/pablobw.png"></v-img>
 
         <v-card-title> Pablo Garcia </v-card-title>
 
@@ -107,7 +107,7 @@
 
     <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="joshbw.png"></v-img>
+        <v-img src="/joshbw.png"></v-img>
 
         <v-card-title> Josh Burton </v-card-title>
 
