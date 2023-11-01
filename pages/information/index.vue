@@ -111,7 +111,9 @@
       </v-row>
 
       <v-row>
-        <h2>Pricing</h2>
+        <v-col cols="12">
+          <h2>Pricing</h2>
+        </v-col>
       </v-row>
 
       <v-row justify="center">

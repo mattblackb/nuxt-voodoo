@@ -1,0 +1,118 @@
+{
+  "kids": {
+    "classes": [
+      {
+        "day": "Monday",
+        "startTime": "4:00",
+        "endTime": "4:45",
+        "am": false,
+        "Title": "Voodoo Ninja's 4 to 7 years old",
+        "age": "ninja",
+        "striking": true
+      },
+
+      {
+        "day": "Monday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Cadet Kickboxing, 12 to 15 years old",
+        "age": "cadet",
+        "striking": false
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "4:00",
+        "endTime": "5:00",
+        "am": false,
+        "Title": "Junior Kickboxing, 8 to 11 years old",
+        "age": "junior",
+        "striking": false
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Junior Brizilian Jui Jitsu, 8 to 11 years old",
+        "age": "junior",
+        "striking": false
+      },
+
+      {
+        "day": "Wednesday",
+        "startTime": "4:00",
+        "endTime": "4:45",
+        "am": false,
+        "Title": "Voodoo Ninja's 4 to 7 years old",
+        "age": "ninja",
+        "striking": true
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Cadet BJJ, 12 to 15 years old",
+        "age": "cadet",
+        "striking": true
+      },
+
+      {
+        "day": "Thursday",
+        "startTime": "4:00",
+        "endTime": "5:00",
+        "am": false,
+        "Title": "Junior Kickboxing, 8 to 11 years old",
+        "age": "junior",
+        "striking": false
+      },
+      {
+        "day": "Thursday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Junior Brizilian Jui Jitsu, 8 to 11 years old",
+        "age": "junior",
+        "striking": false
+      },
+
+      {
+        "day": "Friday",
+        "startTime": "4:00",
+        "endTime": "4:45",
+        "am": false,
+        "Title": "Voodoo Samurai's, 4 to 7 years old",
+        "age": "ninja",
+        "striking": false
+      },
+      {
+        "day": "Friday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Cadet Kickboxing",
+        "age": "cadet",
+        "striking": false
+      },
+      {
+        "day": "Sunday",
+        "startTime": "4:00",
+        "endTime": "4:45",
+        "am": false,
+        "Title": "Voodoo Samurai's, 4 to 7 years old",
+        "age": "ninja",
+        "striking": false
+      },
+      {
+        "day": "Sunday",
+        "startTime": "5:00",
+        "endTime": "6:00",
+        "am": false,
+        "Title": "Cadet BJJ, 12 to 15 years old",
+        "age": "cadet",
+        "striking": false
+      }
+    ]
+  }
+}

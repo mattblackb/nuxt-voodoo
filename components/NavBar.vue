@@ -19,17 +19,19 @@
         <v-btn to="/information" text>Information</v-btn>
         <v-btn to="/timetable" text>TimeTable</v-btn>
         <v-btn to="/classes" text>Classes</v-btn>
-        <v-btn
-          dark
-          large
-          color="white"
-          text
-          class="joinnow"
-          href="https://voodoocombat.clubright.co.uk/register"
-          target="_blank"
-        >
-          Join now
-        </v-btn>
+        <v-row class="d-flex justify-center">
+          <v-btn
+            dark
+            large
+            color="white"
+            text
+            class="joinnow"
+            href="https://voodoocombat.clubright.co.uk/register"
+            target="_blank"
+          >
+            Join now
+          </v-btn>
+        </v-row>
       </v-toolbar-items>
     </v-app-bar>
 
@@ -138,6 +140,9 @@ export default {
 .mobilemenu a {
   color: white;
   font-size: 16px;
+}
+.joinnow {
+  margin-left: 40px;
 }
 /* header {background:#EEE;display:flex;justify-content:space-between;}
 .logo {font-size:2em;line-height:50px;padding:0 0.5em;}

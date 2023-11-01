@@ -62,7 +62,7 @@ h6 {
   vertical-align: baseline;
   clear: both;
   font-weight: 400;
-  font-family: "Staatliches", display;
+  font-family: "Staatliches", sans-serif;
 
   box-sizing: border-box;
   padding: 0;
@@ -153,5 +153,22 @@ img {
 }
 h3 {
   font-size: 36px;
+}
+h4 {
+  line-height: 25px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  h1 {
+    font-size: 30px;
+  }
 }
 </style>
