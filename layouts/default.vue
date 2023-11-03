@@ -171,4 +171,10 @@ h4 {
     font-size: 30px;
   }
 }
+@media (min-width: 482px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  h1 {
+    font-size: 80px;
+  }
+}
 </style>
