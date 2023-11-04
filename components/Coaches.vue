@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="davebw.png"></v-img>
+        <v-img src="/davebw.png"></v-img>
 
         <v-card-title> Dave Kari </v-card-title>
 
@@ -33,9 +33,9 @@
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="amandabw.png"></v-img>
+        <v-img src="/amandabw.png"></v-img>
 
         <v-card-title> Amanda Kari </v-card-title>
 
@@ -57,18 +57,21 @@
 
             <v-card-text>
               <br />
-              Dave is a Martial Arts expert, training since 1983, accumulating
-              vast knowledge and skill in many of the mainstream styles and
-              experienced in many lesser known ones.
+              Amanda is a personal training specialist, owner and coach at Your
+              Coach 121, and martial arts consultant to Voodoo Combat.
+              <br />
+              Amanda is a REP’s level 4 Master Personal Trainer specialising in
+              Diabetes and Obesity as well as being a Sports Nutritionist
+              helping you achieve any fitness or dietary goals you might have.
             </v-card-text>
           </div>
         </v-expand-transition>
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="pablobw.png"></v-img>
+        <v-img src="/pablobw.png"></v-img>
 
         <v-card-title> Pablo Garcia </v-card-title>
 
@@ -102,9 +105,9 @@
       </v-card>
     </v-col>
 
-    <v-col cols="3" sm="12" md="6" lg="3">
+    <v-col cols="12" sm="12" md="6" lg="3">
       <v-card class="mx-auto">
-        <v-img src="joshbw.png"></v-img>
+        <v-img src="/joshbw.png"></v-img>
 
         <v-card-title> Josh Burton </v-card-title>
 

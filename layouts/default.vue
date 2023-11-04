@@ -16,9 +16,6 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 h4 {
   color: #f06d2f;
   font-weight: bold;
@@ -49,6 +46,10 @@ h2 {
 .whiteText {
   color: white !important;
 }
+h2,
+b {
+  color: #f06d2f !important;
+}
 h1,
 h2,
 h3,
@@ -61,7 +62,7 @@ h6 {
   vertical-align: baseline;
   clear: both;
   font-weight: 400;
-  font-family: "Staatliches", display;
+  font-family: "Staatliches", sans-serif;
 
   box-sizing: border-box;
   padding: 0;
@@ -148,6 +149,32 @@ img {
 .orange h4,
 .orange p,
 .orange ul li {
-  color: white;
+  color: white !important;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  line-height: 25px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 482px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  h1 {
+    font-size: 80px;
+  }
 }
 </style>

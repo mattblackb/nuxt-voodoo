@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <div v-if="postApp">
-      <PageHeader :imageurl="checkforImage()">
+    <div>
+      <PageHeader>
         <template v-slot:header> CHILDRENS CLASSES </template>
         <template v-slot:subHeader>
           <!-- <ul>
@@ -47,18 +47,16 @@
             </p>
             <p>
               Please check our
-              <a title="/classes/timetable/" href="/classes/timetable/"
-                >Timetable</a
-              >
+              <a title="/classes/timetable/" href="/timetable/">Timetable</a>
               for the times and days of all our classes.
             </p>
-            <p>
+            <!-- <p>
               To keep up to date with current events take a look at our&nbsp;<a
                 title="/classes/events/"
                 href="/classes/events/"
                 >Events</a
               >&nbsp;page.
-            </p>
+            </p> -->
           </div>
         </v-col>
       </v-row>
@@ -351,30 +349,16 @@ export default {
       }
     },
   },
-  async asyncData({ app, params }) {
-    const client = app.apolloProvider.defaultClient;
-    const slug = "classes";
-    const res = await client.query({
-      query: GET_SINGLE_POSTS,
-      variables: {
-        slug,
-      },
-    });
-    const { postApp } = res.data;
 
-    return {
-      postApp,
-      slug,
-    };
-  },
   head() {
     return {
-      title: this.postApp.metaTitle,
+      title: "Childrens Martial arts Classes at Voodoo Combat Macclesfield",
       meta: [
         {
           hid: "description",
           name: "description",
-          content: this.postApp.metaDescription,
+          content:
+            "Childrens Martial arts Classes at Voodoo Combat Macclesfield",
         },
       ],
     };
@@ -409,9 +393,5 @@ img {
 .maintext img {
   max-width: 100%;
   height: auto;
-}
-h2,
-b {
-  color: #f06d2f;
 }
 </style>

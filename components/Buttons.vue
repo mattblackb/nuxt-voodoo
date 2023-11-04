@@ -1,13 +1,18 @@
 <template>
   <span>
     <v-btn color="gray" class="ma-2 white--text">
+      <a href="/timetable"> Timetable </a>
+
+      <v-icon right dark>mdi-notebook </v-icon>
+    </v-btn>
+    <v-btn color="gray" class="ma-2 white--text">
       <a href="/information"> INFORMATION </a>
 
       <v-icon right dark>mdi-chat-question </v-icon>
     </v-btn>
     <v-btn color="gray" class="ma-2 white--text">
       <a href="/classes"> CLASSES </a>
-      <v-icon right dark>mdi-notebook </v-icon>
+      <v-icon right dark>mdi-weight-lifter </v-icon>
     </v-btn>
     <v-btn color="gray" class="ma-2 white--text">
       <a href="https://www.ebay.co.uk/usr/voodoo-gear" target="_blank">
@@ -28,7 +33,7 @@
       </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
-    <v-btn color="orange" class="ma-2 white--text">
+    <v-btn class="ma-2 white--text backOrange">
       <a
         href="https://voodoocombat.clubright.co.uk/register"
         target="_blank"
@@ -48,6 +53,9 @@ a {
 }
 .whiteLink {
   color: white !important;
+}
+.backOrange {
+  background-color: #f06d2f !important;
 }
 </style>
 
