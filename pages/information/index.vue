@@ -50,16 +50,19 @@
               >
             </p>
             <p>
-              If you'd like to see a little more first why not take a tour of
-              the gym with one of our top coaches and ask all the questions you
-              like. Just pop along to one of our FREE INDUCTIONS that run every
-              week, no need to book.
+              If you'd like to take a look around, ask all the questions, find
+              out what we are about, just pop along to the gym between 4pm and
+              5.30pm Sunday to Friday, no need to book. There will be a member
+              of staff waitong to help, just let us know you interested in
+              joining when you arrive.
             </p>
             <p>
-              <b>Families with children:</b> every Tuesday and Thursday at 6pm
-              to 6.30pm.
+              Alternatively, you can drop us a line at
+              <a href="mailto:voodooservice@gmail.com"
+                >voodooservice@gmail.com</a
+              >
+              and we'll get it sorted.
             </p>
-            <p><b>Adults:</b> every Tuesday and Thursday at 7pm to 7.30pm.</p>
             <p>
               If you like what you see on your induction, come back here, join
               up to one of our programmes by clicking the 'Join Now' button and
