@@ -1,0 +1,122 @@
+{
+  "adult": {
+    "classes": [
+      {
+        "day": "Monday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": false,
+        "Title": "Foundation Thai / Kickboxing",
+        "striking": true
+      },
+      {
+        "day": "Monday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Thai / Kickboxing",
+        "striking": true
+      },
+
+      {
+        "day": "Tuesday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": true,
+        "Title": "Foundation Brazilian Jui Jitsu",
+        "striking": false
+      },
+      {
+        "day": "Tuesday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Brazilian Jui Jitsu",
+        "striking": false
+      },
+
+      {
+        "day": "Wednesday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": false,
+        "Title": "Foundation Thai / Kickboxing",
+        "striking": true
+      },
+      {
+        "day": "Wednesday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Thai / Kickboxing",
+        "striking": true
+      },
+
+      {
+        "day": "Thursday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": false,
+        "Title": "Foundation Wrestling",
+        "striking": false
+      },
+      {
+        "day": "Thursday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Wrestling",
+        "striking": false
+      },
+      {
+        "day": "Friday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": true,
+        "Title": "Advanced Boxing",
+        "striking": true
+      },
+      {
+        "day": "Friday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Brazilian Jui Jitsu",
+        "striking": false
+      },
+
+      {
+        "day": "Sunday",
+        "startTime": "10:00",
+        "endTime": "11:30",
+        "am": true,
+        "Title": "Grappling Competition Class",
+        "striking": false
+      },
+      {
+        "day": "Sunday",
+        "startTime": "11:30",
+        "endTime": "1:00",
+        "am": true,
+        "Title": "Thai / Kickboxing Fight Club",
+        "striking": true
+      },
+      {
+        "day": "Sunday",
+        "startTime": "6:00",
+        "endTime": "7:00",
+        "am": false,
+        "Title": "Advanced Boxing",
+        "striking": true
+      },
+      {
+        "day": "Sunday",
+        "startTime": "7:00",
+        "endTime": "8:30",
+        "am": false,
+        "Title": "Advanced Wrestling",
+        "striking": false
+      }
+    ]
+  }
+}
