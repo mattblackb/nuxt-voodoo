@@ -15,15 +15,9 @@
             >
             in the centre of Macclesfield delivering the very best of
             <a title="/classes" href="/classes">Martial Arts</a>,
-            <a title="/classes/adult-classes" href="/classes/adult-classes"
-              >self defence</a
-            >
+            <a title="/classes/" href="/classes/">self defence</a>
             and
-            <a
-              title="/classes/personal-training"
-              href="/classes/personal-training"
-              >personal training</a
-            >.
+            <a title="/classes/" href="/classes/">personal training</a>.
           </p>
           <p>
             ⁠125A Chestergate, Macclesfield SK11 6DP<br />voodooservice@gmail.com
