@@ -39,17 +39,11 @@
               <a data-v-529bde94="" title="/classes" href="/classes"
                 >Martial Arts</a
               >,
-              <a
-                data-v-529bde94=""
-                title="/classes/adult-classes"
-                href="/classes/adult-classes"
+              <a data-v-529bde94="" title="/classes/" href="/classes/"
                 >self defence</a
               >
               and
-              <a
-                data-v-529bde94=""
-                title="/classes/personal-training"
-                href="/classes/personal-training"
+              <a data-v-529bde94="" title="/classes" href="/classes/"
                 >personal training</a
               >.
             </p>
