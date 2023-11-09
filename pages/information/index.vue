@@ -53,7 +53,7 @@
               If you'd like to take a look around, ask all the questions, find
               out what we are about, just pop along to the gym between 4pm and
               5.30pm Sunday to Friday, no need to book. There will be a member
-              of staff waitong to help, just let us know you interested in
+              of staff waitng to help, just let us know you are interested in
               joining when you arrive.
             </p>
             <p>
@@ -105,7 +105,7 @@
 
             <p>
               You don't need to rush out buying training clothes and equipment
-              straight away, do you free week of training first, find out if you
+              straight away, do your free week of training first, find out if you
               like it! Any training gear, clothing or equipment you’ll need in
               the future can be found on the ‘Classes' page.
             </p>
@@ -206,7 +206,7 @@
                       Children from 4 years old to 7 years old attend our Voodoo
                       Ninjas or Voodoo Samurais; the perfect preparation for all
                       our martial arts classes. Both these classes are identical
-                      but run on different times / days for your conenience.
+                      but run on different times / days for your convenience.
                     </p>
 
                     <p></p>

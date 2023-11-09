@@ -36,7 +36,7 @@
             </p>
             <p>
               Our infant classes, Ninjas and Samurais are for 4 to 7 years olds,
-              our Juniour classes are for 8 to 11 years olds and our Cadet
+              our Juniur classes are for 8 to 11 years olds and our Cadet
               classes are for 12 to 15 years olds. This way your child trains
               within their natural age group and can see their progression.
               <a
@@ -102,7 +102,7 @@
             </p>
             <p>
               No matter what you need in combat sports we are the people that
-              can help. Drop us a line at voodooservices@gmail.com, or come in
+              can help. Drop us a line at voodooservice@gmail.com, or come in
               on one of our inductions to take a look around and ask questions,
               no need to book.
             </p>

@@ -105,7 +105,7 @@
       <v-row class="mt-2">
         <v-col cols="12">
           <div class="">
-            <h2 class="">BRAZILIAN JIU JITSU (BJJ)</h2>
+            <h2 class="">BRAZILIAN Jiu JITSU (BJJ)</h2>
             <h4>JUNIORS: 8 to 11 years old</h4>
             <h4 class="h4noPad">CADETS: 12 to 15 years old</h4>
           </div>

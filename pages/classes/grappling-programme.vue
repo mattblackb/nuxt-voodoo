@@ -116,7 +116,7 @@
         <v-expansion-panels accordion>
           <v-expansion-panel>
             <v-expansion-panel-header
-              ><h3>BRAZILIAN JIU JITSU (BJJ)</h3></v-expansion-panel-header
+              ><h3>BRAZILIAN Jiu JITSU (BJJ)</h3></v-expansion-panel-header
             >
             <v-expansion-panel-content>
               <v-row>

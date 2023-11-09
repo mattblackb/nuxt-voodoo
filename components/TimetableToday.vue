@@ -57,7 +57,7 @@
           <div class="key">
             <span class="rectKey Striking"></span> Striking
             <span class="rectKey Grappling"></span> Grappling
-            <span class="rectKey ninja"></span> Ninjas<span
+            <span class="rectKey ninja"></span> Infants<span
               class="rectKey junior"
             ></span>
             Junior <span class="rectKey cadet"></span> Cadet
