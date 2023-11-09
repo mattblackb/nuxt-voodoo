@@ -69,8 +69,8 @@
 
 <script>
 import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
-import json from "~/static/timetable_new.json";
-import jsonKids from "~/static/timetablekids_new.json";
+import json from "~/static/timetable.json";
+import jsonKids from "~/static/timetablekids.json";
 export default {
   data: () => ({
     loading: 0,
