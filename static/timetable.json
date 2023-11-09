@@ -1,14 +1,7 @@
 {
   "adult": {
     "classes": [
-      {
-        "day": "Monday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Grapling open mat",
-        "striking": false
-      },
+ 
       {
         "day": "Monday",
         "startTime": "7:00",
@@ -33,14 +26,7 @@
         "Title": "Sparring Thai / Kickboxing",
         "striking": true
       },
-      {
-        "day": "Tuesday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Striking open mat",
-        "striking": true
-      },
+   
       {
         "day": "Tuesday",
         "startTime": "7:00",
@@ -58,14 +44,7 @@
         "striking": false
       },
 
-      {
-        "day": "Wednesday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Grapling open mat",
-        "striking": false
-      },
+   
       {
         "day": "Wednesday",
         "startTime": "7:00",
@@ -90,14 +69,7 @@
         "Title": "Sparring Thai / Kickboxing",
         "striking": true
       },
-      {
-        "day": "Thursday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Striking open mat",
-        "striking": true
-      },
+    
       {
         "day": "Thursday",
         "startTime": "7:00",
@@ -114,14 +86,7 @@
         "Title": "Advanced Brazilian Jiu Jitsu",
         "striking": false
       },
-      {
-        "day": "Friday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Grapling open mat",
-        "striking": false
-      },
+    
       {
         "day": "Friday",
         "startTime": "7:00",
