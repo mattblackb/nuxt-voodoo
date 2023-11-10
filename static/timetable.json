@@ -102,14 +102,7 @@
         "Title": "Advanced Brazilian Jiu Jitsu",
         "striking": false
       },
-      {
-        "day": "Sunday",
-        "startTime": "7:00",
-        "endTime": "8:00",
-        "am": true,
-        "Title": "Striking open mat",
-        "striking": false
-      },
+   
       {
         "day": "Sunday",
         "startTime": "10:00",
@@ -123,7 +116,7 @@
         "startTime": "11:30",
         "endTime": "1:00",
         "am": true,
-        "Title": "Advanced Brazilian Jiu Jitsu",
+        "Title": "Fight club thai / kickboxing",
         "striking": false
       },
       {
