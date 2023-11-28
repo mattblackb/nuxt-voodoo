@@ -27,8 +27,8 @@
               WE PRIDE OURSELVES ON OUR MEMBERS TRAINING WITH US BECAUSE WE’RE
               THE BEST
             </h4>
-
-            <h4>FREE INDUCTION, MEMBERSHIP AND INSURANCE!</h4>
+            <br />
+            <h4>FREE, MEMBERSHIP AND INSURANCE!</h4>
 
             <h4>A FREE GUMSHEILD ON ATTENDING YOUR FIRST CLASS!</h4>
           </div>
@@ -64,9 +64,9 @@
               and we'll get it sorted.
             </p>
             <p>
-              If you like what you see on your induction, come back here, join
-              up to one of our programmes by clicking the 'Join Now' button and
-              attend the next available class.
+              If you like what you see on your visit, come back here, join up to
+              one of our programmes by clicking the 'Join Now' button and attend
+              the next available class.
             </p>
             <p>
               We don’t do contracts or have any hidden charges and you can
@@ -105,9 +105,9 @@
 
             <p>
               You don't need to rush out buying training clothes and equipment
-              straight away, do your free week of training first, find out if you
-              like it! Any training gear, clothing or equipment you’ll need in
-              the future can be found on the ‘Classes' page.
+              straight away, do your free week of training first, find out if
+              you like it! Any training gear, clothing or equipment you’ll need
+              in the future can be found on the ‘Classes' page.
             </p>
           </div>
         </v-col>
@@ -136,22 +136,15 @@
                     </p>
 
                     <h4>
-                      ⁠Foundation Striking Programme - £46 per calendar month
+                      ⁠Foundation Striking Programme - £46 per calendar month.
                     </h4>
                     <h4>
-                      ⁠Foundation Grappling Programme - £46 per calendar month⁠
+                      ⁠Foundation Grappling Programme - £46 per calendar month⁠.
                     </h4>
                     <h4>
                       Both ⁠Foundation Programmes - £58 per calender month.⁠
                     </h4>
 
-                    <p>
-                      There are always opportunities to compete if you wish to
-                      test your skills in the ultimate arena under a variety of
-                      rule sets including Muay Thai classes A, B and C, K1 and
-                      other Full Contact Kickboxing rulesets.
-                    </p>
-                    <p>Some more about Thai / Kick Boxing…</p>
                     <p>
                       Striking: Less than 18 months of consistent Muay Thai
                       training or lower than green belt in Kickboxing.
@@ -160,21 +153,16 @@
                       Grappling: Less than 18 months of consistent wrestling
                       training or a white belt in Brazilian Jiu Jitsu.
                     </p>
-                    <p>
-                      There is also American style Kick Boxing, which is also
-                      full contact, with no clinch work and further limits on
-                      the strikes allowed. However, we don't prioritise this
-                      style of training at Voodoo, although sometimes we may
-                      compete within these rules.
-                    </p>
+
                     <h3>Experienced fighters:</h3>
 
                     <h4>
-                      Advanced Striking Programme - £58 per calendar month
+                      Advanced Striking Programme - £58 per calendar month.
                     </h4>
                     <h4>
-                      Advanced Grappling Programme - £58 per calender month
+                      Advanced Grappling Programme - £58 per calender month.
                     </h4>
+                    <br />
                     <h4>
                       Both ⁠Advanced Programmes - £70 per calender month.⁠
                     </h4>
@@ -214,9 +202,10 @@
                       Voodoo Ninjas / Samurais programmes costs – £28 per
                       calendar month.
                     </h4>
+                    <br />
                     <h4>
                       You can have your child attend both of these programmes
-                      for only £40 per calender month.
+                      for only - £40 per calender month.
                     </h4>
                     <p>
                       Samurai's - Sundays and Fridays at 5.00pm to 5.45pm<br />
@@ -246,14 +235,16 @@
                       Programmes available for either of these age groups are:
                     </p>
                     <p>Brazilian Jiu Jitsu Programme (2 classes per week)</p>
+                    <p>Kick Boxing Programme (2 classes per week)</p>
                     <p></p>
                     <h4>
                       Any one of our children’s programmes costs – £28 per
                       calendar month
                     </h4>
+                    <br />
                     <h4>
-                      Any two of our children’s programmes costs – £40 per
-                      calendar month
+                      Both of our children’s programmes costs – £40 per calendar
+                      month
                     </h4>
 
                     <p>
@@ -261,14 +252,6 @@
                       <a href="/classes">'Classes’ </a>page. Our children's
                       classes close over school holidays, check the
                       <a href="timetable">'Timetable'</a> page for details.
-                    </p>
-                    <p>
-                      Take a look at our
-                      <a
-                        href="https://voodoocombat.clubright.co.uk/terms"
-                        target="_blank"
-                        >'Terms and Conditions'</a
-                      >.
                     </p>
                   </div>
                 </v-col>

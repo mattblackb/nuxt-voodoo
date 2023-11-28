@@ -5,6 +5,14 @@
         "day": "Monday",
         "startTime": "7:00",
         "endTime": "8:00",
+        "am": true,
+        "Title": "Grapling open mat",
+        "striking": false
+      },
+      {
+        "day": "Monday",
+        "startTime": "7:00",
+        "endTime": "8:00",
         "am": false,
         "Title": "Foundation Thai / Kickboxing",
         "striking": true
@@ -25,13 +33,20 @@
         "Title": "Sparring Thai / Kickboxing",
         "striking": true
       },
-   
+      {
+        "day": "Tuesday",
+        "startTime": "7:00",
+        "endTime": "8:00",
+        "am": true,
+        "Title": "Striking open mat",
+        "striking": true
+      },
       {
         "day": "Tuesday",
         "startTime": "7:00",
         "endTime": "8:00",
         "am": false,
-        "Title": "Foundation Brazilian Jiu Jitsu",
+        "Title": "Foundation Brazilian Jui Jitsu",
         "striking": false
       },
       {
@@ -39,11 +54,18 @@
         "startTime": "8:00",
         "endTime": "9:30",
         "am": false,
-        "Title": "Advanced Brazilian Jiu Jitsu",
+        "Title": "Advanced Brazilian Jui Jitsu",
         "striking": false
       },
 
-   
+      {
+        "day": "Wednesday",
+        "startTime": "7:00",
+        "endTime": "8:00",
+        "am": true,
+        "Title": "Grapling open mat",
+        "striking": false
+      },
       {
         "day": "Wednesday",
         "startTime": "7:00",
@@ -68,13 +90,20 @@
         "Title": "Sparring Thai / Kickboxing",
         "striking": true
       },
-    
+      {
+        "day": "Thursday",
+        "startTime": "7:00",
+        "endTime": "8:00",
+        "am": true,
+        "Title": "Striking open mat",
+        "striking": true
+      },
       {
         "day": "Thursday",
         "startTime": "7:00",
         "endTime": "8:00",
         "am": false,
-        "Title": "Foundation Brazilian Jiu Jitsu",
+        "Title": "Foundation Brazilian Jui Jitsu",
         "striking": false
       },
       {
@@ -82,10 +111,17 @@
         "startTime": "8:00",
         "endTime": "9:30",
         "am": false,
-        "Title": "Advanced Brazilian Jiu Jitsu",
+        "Title": "Advanced Brazilian Jui Jitsu",
         "striking": false
       },
-    
+      {
+        "day": "Friday",
+        "startTime": "7:00",
+        "endTime": "8:00",
+        "am": true,
+        "Title": "Grapling open mat",
+        "striking": false
+      },
       {
         "day": "Friday",
         "startTime": "7:00",
@@ -99,17 +135,15 @@
         "startTime": "8:00",
         "endTime": "9:30",
         "am": false,
-        "Title": "Advanced Brazilian Jiu Jitsu",
+        "Title": "Advanced Brazilian Jui Jitsu",
         "striking": false
       },
-   
-     
       {
         "day": "Sunday",
-        "startTime": "11:30",
-        "endTime": "1:00",
+        "startTime": "7:00",
+        "endTime": "8:00",
         "am": true,
-        "Title": "Fight club thai / kickboxing",
+        "Title": "Striking open mat",
         "striking": false
       },
       {
@@ -118,7 +152,15 @@
         "endTime": "11:30",
         "am": true,
         "Title": "Grappling Competition Class",
-        "striking": true
+        "striking": false
+      },
+      {
+        "day": "Sunday",
+        "startTime": "11:30",
+        "endTime": "1:00",
+        "am": true,
+        "Title": "Fight Club Thai / Kickboxing",
+        "striking": false
       },
       {
         "day": "Sunday",
