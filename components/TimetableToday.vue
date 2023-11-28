@@ -55,12 +55,18 @@
         </v-col>
         <v-col cols="12">
           <div class="key">
-            <span class="rectKey Striking"></span> Striking
-            <span class="rectKey Grappling"></span> Grappling
-            <span class="rectKey ninja"></span> Ninjas<span
-              class="rectKey junior"
-            ></span>
-            Junior <span class="rectKey cadet"></span> Cadet
+            <h3>Key</h3>
+            <div>Striking Adults 16+<span class="rectKey Striking"></span></div>
+            <div>
+              Grappling Adults 16+<span class="rectKey Grappling"></span>
+            </div>
+            <div>Ninjas 4 to 7 years<span class="rectKey ninja"></span></div>
+            <div>
+              Juniors 8 till 11 years<span class="rectKey junior"></span>
+            </div>
+            <div class="">
+              Cadets 12 to 15 years <span class="rectKey cadet"></span>
+            </div>
           </div>
         </v-col>
       </v-row>

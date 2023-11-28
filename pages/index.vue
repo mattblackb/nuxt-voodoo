@@ -58,9 +58,8 @@
               challenging environment. Classes for the whole family!
             </p>
             <h4 data-v-529bde94="">
-              <br data-v-529bde94="" />FREE...<br
-                data-v-529bde94=""
-              />INDUCTION, MEMBERSHIP AND INSURANCE!
+              <br data-v-529bde94="" />FREE...<br data-v-529bde94="" />
+              MEMBERSHIP AND INSURANCE!
             </h4>
             <p data-v-529bde94=""></p>
           </div>

@@ -50,10 +50,10 @@
       },
       {
         "day": "Wednesday",
-        "startTime": "5:00",
-        "endTime": "6:00",
+        "startTime": "6:00",
+        "endTime": "7:00",
         "am": false,
-        "Title": "Cadet BJJ, 12 to 15 years old",
+        "Title": "Cadet Brizilian Jui Jitsu, 12 to 15 years old",
         "age": "cadet",
         "striking": true
       },

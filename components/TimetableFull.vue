@@ -56,11 +56,13 @@
         </div>
         <div class="key">
           <h3>Key</h3>
-          <div>Striking <span class="rectKey Striking"></span></div>
-          <div>Grappling<span class="rectKey Grappling"></span></div>
-          <div>Ninjas<span class="rectKey ninja"></span></div>
-          <div>Junior<span class="rectKey junior"></span></div>
-          <div class="">Cadet<span class="rectKey cadet"></span></div>
+          <div>Striking Adults 16+<span class="rectKey Striking"></span></div>
+          <div>Grappling Adults 16+<span class="rectKey Grappling"></span></div>
+          <div>Ninjas 4 to 7 years<span class="rectKey ninja"></span></div>
+          <div>Juniors 8 till 11 years<span class="rectKey junior"></span></div>
+          <div class="">
+            Cadets 12 to 15 years <span class="rectKey cadet"></span>
+          </div>
         </div>
       </v-col>
     </v-row>
@@ -69,8 +71,8 @@
 
 <script>
 import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
-import json from "~/static/timetable_new.json";
-import jsonKids from "~/static/timetablekids_new.json";
+import json from "~/static/timetable.json";
+import jsonKids from "~/static/timetablekids.json";
 export default {
   data: () => ({
     loading: 0,

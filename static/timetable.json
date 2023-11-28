@@ -152,14 +152,14 @@
         "endTime": "11:30",
         "am": true,
         "Title": "Grappling Competition Class",
-        "striking": true
+        "striking": false
       },
       {
         "day": "Sunday",
         "startTime": "11:30",
         "endTime": "1:00",
         "am": true,
-        "Title": "Advanced Brazilian Jui Jitsu",
+        "Title": "AFight Club Thai / Kickboxing",
         "striking": false
       },
       {
