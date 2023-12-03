@@ -19,6 +19,7 @@
         <v-btn to="/information" text>Information</v-btn>
         <v-btn to="/timetable" text>TimeTable</v-btn>
         <v-btn to="/classes" text>Classes</v-btn>
+        <v-btn to="/findus" text>Find Us</v-btn>
         <v-row class="d-flex justify-center">
           <v-btn
             dark
