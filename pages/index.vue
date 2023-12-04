@@ -1,27 +1,31 @@
 <template>
   <main>
-    <!-- Loop around unique categories -->
-    <PageHeader imageurl="BJJ.jpeg">
-      <template v-slot:header>
-        {{ postApp.title }}
-      </template>
-      <template v-slot:subHeader>
-        <ul>
-          <li>We are Martial Arts</li>
-          <li>We are Brazilian Jiu Jitsu</li>
-          <li>We are Submission / Catch Wrestling</li>
-          <li>We are Thai / Kick Boxing</li>
-          <li>We are Boxing (for Kickboxers)</li>
-          <li>We are Shotokan Karate Do</li>
-          <li>We are Self Defence</li>
-        </ul>
-        <h4>
-          email:<a href="mailto:voodooservice@gmail.com">
-            voodooservice@gmail.com</a
-          >
-        </h4>
-      </template>
-    </PageHeader>
+    <v-container>
+      <div>
+        <!-- Loop around unique categories -->
+        <PageHeader imageurl="BJJ.jpeg">
+          <template v-slot:header>
+            {{ postApp.title }}
+          </template>
+          <template v-slot:subHeader>
+            <ul>
+              <li>We are Martial Arts</li>
+              <li>We are Brazilian Jiu Jitsu</li>
+              <li>We are Submission / Catch Wrestling</li>
+              <li>We are Thai / Kick Boxing</li>
+              <li>We are Boxing (for Kickboxers)</li>
+              <li>We are Shotokan Karate Do</li>
+              <li>We are Self Defence</li>
+            </ul>
+            <h4>
+              email:<a href="mailto:voodooservice@gmail.com">
+                voodooservice@gmail.com</a
+              >
+            </h4>
+          </template>
+        </PageHeader>
+      </div>
+    </v-container>
     <v-container>
       <SplitViewHead>
         <template v-slot:header> Welcome to Voodoo Combat </template>
