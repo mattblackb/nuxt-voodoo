@@ -52,7 +52,7 @@
               <div><strong>We are Self Defence</strong></div>
             </li>
           </ul> -->
-          <h4><br />FREE...<br />INDUCTION, MEMBERSHIP AND INSURANCE!</h4>
+          <h4><br />FREE...<br />MEMBERSHIP AND INSURANCE!</h4>
 
           <p></p>
         </div>

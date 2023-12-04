@@ -103,8 +103,7 @@
             <p>
               No matter what you need in combat sports we are the people that
               can help. Drop us a line at voodooservice@gmail.com, or come in
-              on one of our inductions to take a look around and ask questions,
-              no need to book.
+              and say hi
             </p>
           </div>
         </v-col>

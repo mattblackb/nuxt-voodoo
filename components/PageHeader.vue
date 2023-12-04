@@ -10,14 +10,9 @@
           >
         </p>
       </v-col>
-      <v-col class="justify-center align-center d-flex" v-if="imageurl">
+      <v-col class="justify-center align-center d-flex">
         <!-- <nuxt-img src="~/assets/paper.png" /> -->
-        <v-img
-          cover
-          :src="imageurl"
-          max-height="425"
-          alt="frontend development macclesfield"
-        ></v-img>
+        <Adverts />
       </v-col>
     </v-row>
 
