@@ -1,103 +1,45 @@
 <template>
   <v-container>
-    <div v-if="postApp">
-      <PageHeader :imageurl="checkforImage()">
-        <template v-slot:header>
-          {{ postApp.title }}
-        </template>
+    <div>
+      <PageHeader>
+        <template v-slot:header> TIMETABLE </template>
       </PageHeader>
-      <MainView linkType="classes" v-if="!postApp.postDetails2">
-        <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
-      </MainView>
-
-      <MainViewsplit linkType="classes" v-else>
-        <template v-slot:left>
-          <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
-          <iframe
-            style="border-width: 0"
-            src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=webape2%40gmail.com&amp;color=%2329527A&amp;ctz=Europe%2FLondon"
-            width="100%"
-            height="600"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-        </template>
-        <template v-slot:right>
-          <div v-html="removeVoodoo(postApp.postDetails2.html)"></div>
-        </template>
-      </MainViewsplit>
     </div>
+
+    <v-card class="mt-5">
+      <!-- <v-card-title class="text-center justify-center py-6">
+        <h1 class="font-weight-bold text-h2 basil--text">BASiL</h1>
+      </v-card-title> -->
+
+      <v-tabs v-model="tab" background-color="transparent" color="basil" grow>
+        <v-tab> Timetable </v-tab>
+        <v-tab> Gym Closures </v-tab>
+      </v-tabs>
+
+      <v-tabs-items v-model="tab">
+        <v-tab-item>
+          <TimetableFull />
+        </v-tab-item>
+        <v-tab-item>
+          <Closures />
+        </v-tab-item>
+      </v-tabs-items>
+    </v-card>
   </v-container>
 </template>
 
 <script>
-import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
-
 export default {
-  data: () => ({
-    loading: 0,
-    currentitem: null,
-  }),
-  methods: {
-    removeVoodoo(string) {
-      var find = "http://voodoogym.co.uk";
-      var re = new RegExp(find, "g");
-      var str = string.replace(re, "");
-      return str;
-    },
-    checkforImage() {
-      if (this.postApp.mainheaderImage) {
-        return this.postApp.mainheaderImage.url;
-      } else {
-        return "/voodoo_logo.png";
-      }
-    },
-  },
-  async asyncData({ app, params }) {
-    const client = app.apolloProvider.defaultClient;
-    const slug = "timetable";
-    const res = await client.query({
-      query: GET_SINGLE_POSTS,
-      variables: {
-        slug,
-      },
-    });
-    const { postApp } = res.data;
-
+  data() {
     return {
-      postApp,
-      slug,
-    };
-  },
-  head() {
-    return {
-      title: this.postApp.metaTitle,
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: this.postApp.metaDescription,
-        },
-      ],
+      tab: null,
     };
   },
 };
 </script>
 
 <style>
-.sideImage img {
-  max-width: 55% !important;
-  width: 55% !important;
-}
-img {
-  margin-top: 10px !important;
-}
-.maintext img {
-  max-width: 100%;
-  height: auto;
-}
-h2,
-b {
-  color: #f06d2f;
+.v-tab--active {
+  background-color: #f06d2f !important;
 }
 </style>
