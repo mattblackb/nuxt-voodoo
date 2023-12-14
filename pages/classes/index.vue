@@ -131,7 +131,7 @@
             <p>
               For more information visit out&nbsp;<a
                 title="Voodoo Personal Training"
-                href="https://voodoogym.co.uk/classes/personal-training/"
+                href="/classes/personal-training/"
                 >Personal Training</a
               >
               page.

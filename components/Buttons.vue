@@ -14,12 +14,12 @@
       <a href="/classes"> CLASSES </a>
       <v-icon right dark>mdi-weight-lifter </v-icon>
     </v-btn>
-    <v-btn color="gray" class="ma-2 white--text">
+    <!-- <v-btn color="gray" class="ma-2 white--text">
       <a href="https://www.ebay.co.uk/usr/voodoo-gear" target="_blank">
         Shop
       </a>
       <v-icon right dark>mdi-basket-plus-outline </v-icon>
-    </v-btn>
+    </v-btn> -->
     <v-btn color="gray" class="ma-2 white--text">
       <a href="https://www.voodoorecharge.co.uk" target="_blank">
         Voodoo Recharge
