@@ -81,12 +81,12 @@
         <h3>ADULTS CLASS CLOSURES<br />2023 to 2024</h3>
         <p>
           <strong>CHRISTMAS HOLIDAY</strong><br />Last Day of Training:<br />Thursday
-          22nd December 2022<br /><em
+          21st December 2023<br /><em
             ><strong
-              >Closed Inclusive:<br />Friday 23rd December 2022<br />to Tuesday
-              3rd January 2023</strong
+              >Closed Inclusive:<br />Friday 22nd December 2024<br />to
+              Wednesday 3rd January 2024</strong
             ></em
-          ><br />Training Restarts:<br />Wednesday 4th&nbsp;January 2023
+          ><br />Training Restarts:<br />Wednesday 3rd&nbsp;January 2024
         </p>
         <h3>2024 to 2025</h3>
         <p>
