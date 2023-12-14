@@ -12,13 +12,14 @@
       <v-col cols="12" sm="12" md="6">
         <h3>KIDS CLASS CLOSURES<br />2023 to 2024</h3>
         <p>
-          <strong>CHRISTMAS HOLIDAY</strong><br />Last Day of Training:<br />Friday
-          22nd December 2023<br /><em
+          <strong>CHRISTMAS HOLIDAY</strong><br />Last Day of Training:<br />Wednesday
+          20th December 2023<br /><i
             ><strong
-              >Closed Inclusive:<br />Saturday 23rd December 2023<br />to
-              Saturday 6th January 2024</strong
-            ></em
-          ><br />Training Restarts:<br />Sunday 7th&nbsp;January 2024
+              >Closed Inclusive:<br />Thursday 21st December 2023<br />
+              to Saturday 6th January 2024<br /> </strong
+          ></i>
+          Training Restarts:<br />
+          Sunday 7th January 2024
         </p>
         <h3>2024 to 2025</h3>
         <p>
