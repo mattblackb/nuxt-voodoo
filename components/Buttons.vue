@@ -43,6 +43,15 @@
       </a>
       <!-- <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon> -->
     </v-btn>
+    <v-btn
+      color="white"
+      text
+      class="ma-2 white--text backOrange"
+      href="https://voodookids.clubright.co.uk/register"
+      target="_blank"
+    >
+      Kids join now
+    </v-btn>
   </span>
 </template>
 
