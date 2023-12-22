@@ -6,22 +6,42 @@
           {{ postApp.title }}
         </template>
       </PageHeader>
-      <MainView
-        linkType="information"
-        v-if="!postApp.postDetails2"
-        class="inlineImg"
-      >
+      <MainView linkType="information" class="inlineImg">
         <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
       </MainView>
+      <v-row justify="center">
+        <Accordion v-if="postApp.accordion1Header">
+          <template v-slot:header1>
+            <h3>{{ postApp.accordion1Header }}</h3>
+          </template>
 
-      <MainViewsplit linkType="information" v-else>
-        <template v-slot:left>
-          <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
-        </template>
-        <template v-slot:right>
-          <div v-html="removeVoodoo(postApp.postDetails.html)"></div>
-        </template>
-      </MainViewsplit>
+          <template v-slot:content1>
+            <!-- Your content here -->
+            <div v-html="postApp.accordion1Content.html"></div>
+          </template>
+
+          <template v-slot:header2>
+            <h3>{{ postApp.accordion2Header }}</h3>
+          </template>
+
+          <template v-slot:content2>
+            <!-- Your content here -->
+            <div v-html="postApp.accordion2Text.html"></div>
+          </template>
+
+          <template v-slot:header3>
+            <h3>{{ postApp.accordion3Header }}</h3>
+          </template>
+
+          <template v-slot:content3>
+            <!-- Your content here -->
+            <div v-html="postApp.accordion3Content.html"></div>
+          </template>
+        </Accordion>
+      </v-row>
+      <v-row>
+        <div v-html="postApp.postDetails2.html"></div>
+      </v-row>
     </div>
   </v-container>
 </template>
@@ -60,23 +80,14 @@ export default {
       },
     });
     const { postApp } = res.data;
-
+    console.log(postApp);
     return {
       postApp,
       slug,
     };
   },
   head() {
-    return {
-      title: this.postApp.metaTitle,
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: this.postApp.metaDescription,
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>

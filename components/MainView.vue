@@ -1,25 +1,20 @@
 <template>
+  <main>
     <v-row>
-            <v-col cols=12 sm=12 md=8 class="pa-3">
-                <slot></slot>
-            </v-col>
-              <v-col cols=12 sm=12 md=4 class="pa-3">
-                <Information :linkType="linkType"/>
-            </v-col>
-            
-
+      <v-col cols="12" sm="12" md="12" class="pa-3">
+        <slot></slot>
+      </v-col>
     </v-row>
-
-
+  </main>
 </template>
 
 <script>
-import Information from './sidelinks/Information.vue'
+import Information from "./sidelinks/Information.vue";
 export default {
   components: { Information },
-    props: {
-        linkType: String,
-        required: false
-    }
-}
+  props: {
+    linkType: String,
+    required: false,
+  },
+};
 </script>

@@ -1,26 +1,38 @@
-query GET_SINGLE_POSTS ($slug: String) {
-    postApp(where: {slug: $slug}) {
+query GET_SINGLE_POSTS($slug: String) {
+  postApp(where: { slug: $slug }) {
     id
     title
-     headerTitle
-    headerText {html}
-    mainheaderImage { 
-       url(
-        transformation: {
-          image: { resize: { width: 500, fit: scale } }
-        }
-      ) 
+    headerTitle
+    headerText {
+      html
     }
-    headerImage {  
-      url(
-        transformation: {
-          image: { resize: { width: 500, fit: scale } }
-        }
-      ) 
+    mainheaderImage {
+      url(transformation: { image: { resize: { width: 500, fit: scale } } })
     }
-    postDetails{html}
-    postDetails2{html}
-    postFooter{html}
+    headerImage {
+      url(transformation: { image: { resize: { width: 500, fit: scale } } })
+    }
+    postDetails {
+      html
+    }
+    postDetails2 {
+      html
+    }
+    accordion1Header
+    accordion2Header
+    accordion3Header
+    accordion1Content {
+      html
+    }
+    accordion2Text {
+      html
+    }
+    accordion3Content {
+      html
+    }
+    postFooter {
+      html
+    }
     slug
     metaDescription
     metaTitle
