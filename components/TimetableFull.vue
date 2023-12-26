@@ -74,6 +74,16 @@ import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
 import json from "~/static/timetable_new.json";
 import jsonKids from "~/static/timetablekids_new.json";
 export default {
+  props: {
+    adultClassesProp: {
+      type: Object,
+      // default: () => (this.json ? this.json.adult.classes : []),
+    },
+    kidsClassesProp: {
+      type: Object,
+      // default: () => (this.jsonkids ? this.jsonkids.kids.classes : []),
+    },
+  },
   data: () => ({
     loading: 0,
     currentitem: null,
@@ -82,6 +92,7 @@ export default {
     jsonKids,
     kidsClasses: [],
   }),
+
   methods: {
     checkToday(day) {
       var d = new Date();
@@ -166,7 +177,12 @@ export default {
       }
     },
     GetResetData() {
-      var adultClasses = this.json.adult.classes;
+      if (this.adultClassesProp) {
+        var adultClasses = this.adultClassesProp.adult.classes;
+      } else {
+        var adultClasses = this.json.adult.classes;
+      }
+
       const result = [];
       const days = [];
 
@@ -183,8 +199,12 @@ export default {
       });
 
       this.adultClasses = result;
+      if (this.kidsClassesProp) {
+        var kidsClasses = this.kidsClassesProp.kids.classes;
+      } else {
+        var kidsClasses = this.jsonKids.kids.classes;
+      }
 
-      var kidsClasses = this.jsonKids.kids.classes;
       const resultkids = [];
       const dayskids = [];
 
@@ -204,23 +224,7 @@ export default {
       console.log(this.kidsClasses);
     },
   },
-  async asyncData({ app, params }) {
-    const client = app.apolloProvider.defaultClient;
-    const slug = "information";
-    console.log("Information");
-    const res = await client.query({
-      query: GET_SINGLE_POSTS,
-      variables: {
-        slug,
-      },
-    });
-    const { postApp } = res.data;
 
-    return {
-      postApp,
-      slug,
-    };
-  },
   beforeMount() {
     //for each class in adult classes group by day
     //for each day create a new object

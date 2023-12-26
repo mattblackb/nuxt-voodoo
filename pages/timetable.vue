@@ -18,7 +18,10 @@
 
       <v-tabs-items v-model="tab">
         <v-tab-item>
-          <TimetableFull />
+          <TimetableFull
+            :adultClassesProp="adultsProp"
+            :kidsClassesProp="kidsProp"
+          />
         </v-tab-item>
         <v-tab-item>
           <Closures />
@@ -29,10 +32,31 @@
 </template>
 
 <script>
+import GET_ALL_TABLES from "~/queries/timetables.gql";
 export default {
   data() {
     return {
       tab: null,
+    };
+  },
+  async asyncData({ app, params }) {
+    const client = app.apolloProvider.defaultClient;
+    const res = await client.query({
+      query: GET_ALL_TABLES,
+    });
+    const postApp = res.data.adultTimetables;
+    // console.log("postApp", postApp, res.data);
+    let adultsProp = [];
+    let kidsProp = [];
+    if (postApp[0]) {
+      adultsProp = postApp[0].allTimetables;
+      kidsProp = postApp[1].allTimetables;
+    }
+
+    return {
+      kidsProp,
+      adultsProp,
+      postApp,
     };
   },
 };
