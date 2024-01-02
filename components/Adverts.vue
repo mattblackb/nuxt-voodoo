@@ -1,7 +1,7 @@
 <template>
   <v-carousel cycle hide-delimiter-background show-arrows-on-hover>
     <v-carousel-item
-      src="/blackFriday.png"
+      src="/januarySale.png"
       cover
       href="https://voodoocombat.clubright.co.uk/register"
       target="_blank"
