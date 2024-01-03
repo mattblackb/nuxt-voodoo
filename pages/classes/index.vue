@@ -35,8 +35,8 @@
               the gym for your children's safety.
             </p>
             <p>
-              Our infant classes, Ninjas and Samurais are for 4 to 7 years olds,
-              our Juniur classes are for 8 to 11 years olds and our Cadet
+              Our infant classes, Infants and Samurais are for 4 to 7 years
+              olds, our Juniur classes are for 8 to 11 years olds and our Cadet
               classes are for 12 to 15 years olds. This way your child trains
               within their natural age group and can see their progression.
               <a

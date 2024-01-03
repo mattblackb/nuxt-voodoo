@@ -87,19 +87,20 @@
 
       {
         "day": "Sunday",
+        "startTime": "11:30",
+        "endTime": "1:00",
+        "alternatePM": true,
+        "am": true,
+        "Title": "Thai / Kickboxing Fight Club",
+        "striking": true
+      },
+      {
+        "day": "Sunday",
         "startTime": "10:00",
         "endTime": "11:30",
         "am": true,
         "Title": "Grappling Competition Class",
         "striking": false
-      },
-      {
-        "day": "Sunday",
-        "startTime": "11:30",
-        "endTime": "1:00",
-        "am": true,
-        "Title": "Thai / Kickboxing Fight Club",
-        "striking": true
       },
       {
         "day": "Sunday",

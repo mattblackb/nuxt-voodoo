@@ -262,14 +262,15 @@
                   <div>
                     <p>
                       Children from 4 years old to 7 years old attend our Voodoo
-                      Ninjas or Voodoo Samurais; the perfect preparation for all
-                      our martial arts classes. Both these classes are identical
-                      but run on different times / days for your conenience.
+                      Infants or Voodoo Samurais; the perfect preparation for
+                      all our martial arts classes. Both these classes are
+                      identical but run on different times / days for your
+                      conenience.
                     </p>
 
                     <p></p>
                     <h4>
-                      Voodoo Ninjas / Samurais programmes costs – £28 per
+                      Voodoo Infants / Samurais programmes costs – £28 per
                       calendar month.
                     </h4>
                     <h4>

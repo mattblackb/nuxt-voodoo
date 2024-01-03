@@ -14,7 +14,7 @@
               <li>We are Submission / Catch Wrestling</li>
               <li>We are Thai / Kick Boxing</li>
               <li>We are Boxing (for Kickboxers)</li>
-              <li>We are Shotokan Karate Do</li>
+
               <li>We are Self Defence</li>
             </ul>
             <h4>
@@ -143,11 +143,11 @@
         </v-col>
       </v-row>
       <Coaches />
-      <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
+      <!-- <v-row v-if="postApp.postFooter.html" class="d-flex justify-center">
         <v-col cols="12">
           <div v-html="postApp.postFooter.html" class="hundres"></div>
         </v-col>
-      </v-row>
+      </v-row> -->
     </v-container>
   </main>
 </template>

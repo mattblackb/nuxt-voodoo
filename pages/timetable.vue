@@ -18,10 +18,7 @@
 
       <v-tabs-items v-model="tab">
         <v-tab-item>
-          <TimetableFull
-            :adultClassesProp="adultsProp"
-            :kidsClassesProp="kidsProp"
-          />
+          <TimetableFull />
         </v-tab-item>
         <v-tab-item>
           <Closures />

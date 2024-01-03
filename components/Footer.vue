@@ -46,7 +46,7 @@
           </v-card>
         </v-col>
         <v-col class="py-4 text-center white--text" cols="12">
-          © {{ new Date().getFullYear() }} — <strong>Voodoo combat </strong>
+          © {{ new Date().getFullYear() }} — <strong>Voodoo Combat </strong>
         </v-col>
       </v-row>
     </v-footer>

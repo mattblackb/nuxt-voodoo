@@ -30,7 +30,7 @@
             href="https://voodoocombat.clubright.co.uk/register"
             target="_blank"
           >
-            Join now
+            Adults Join now
           </v-btn>
           <v-btn
             dark

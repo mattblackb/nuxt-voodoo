@@ -10,7 +10,7 @@
             <li>We are Submission / Catch Wrestling</li>
             <li>We are Thai / Kick Boxing</li>
             <li>We are Boxing (for Kickboxers)</li>
-            <li>We are Shotokan Karate Do</li>
+
             <li>We are Self Defence</li>
           </ul>
           <h4>
@@ -40,37 +40,36 @@
               We are a 'MEMBERS ONLY' gym, so you need to join before attending
               any classes.
             </p>
+
             <p>
               If you know what we are about and just want to join us at Voodoo
-              now, no messing about click
-              <a
-                href="https://voodoocombat.clubright.co.uk/register"
-                target="_blank"
-                >here!</a
-              >
+              now, no messing about click the appropriate ‘Join Now’ button on
+              your screen!
             </p>
+
             <p>
-              If you'd like to take a look around, ask all the questions, find
-              out what we are about, just pop along to the gym between 4pm and
-              5.30pm Sunday to Friday, no need to book. There will be a member
-              of staff waitng to help, just let us know you are interested in
-              joining when you arrive.
+              If you'd like to take a look around, ask questions, find out what
+              we are about, just pop along to the gym between 4.00pm and 5.30pm
+              Sunday to Friday, no need to book. There is a member of staff
+              waiting to help, just let us know you are interested in joining
+              when you arrive.
             </p>
+
             <p>
-              Alternatively, you can drop us a line at
-              <a href="mailto:voodooservice@gmail.com"
-                >voodooservice@gmail.com</a
-              >
-              and we'll get it sorted.
+              Alternatively, if you’d like to see a specific class, or want to
+              know more, you can drop us a line at voodooservice@gmail.com and
+              we'll get it sorted.
             </p>
+
             <p>
               If you like what you see on your visit, come back here, join up to
-              one of our programmes by clicking the 'Join Now' button and attend
-              the next available class.
+              one of our programmes by clicking the appropriate 'Join Now'
+              button and attend the next available class.
             </p>
+
             <p>
-              We don’t do contracts or have any hidden charges and you can
-              cancel your membership at any time by letting us know 10 working
+              We don’t do contracts or have any hidden charges. You can cancel
+              your membership at any time by letting us know by email 10 working
               days before your next payment is due, so there's nothing to worry
               about.
             </p>
@@ -135,30 +134,40 @@
                       move to the advanced class.
                     </p>
 
+                    <p>
+                      Striking Experience: Less than 18 months of consistent
+                      Muay Thai training or lower than green belt in
+                      Kickboxing.<br />
+                      Grappling Experience: Less than 18 months of consistent
+                      wrestling training or a white belt in Brazilian Jiu Jitsu.
+                    </p>
                     <h4>
                       ⁠Foundation Striking Programme - £46 per calendar month.
                     </h4>
+                    <br />
                     <h4>
                       ⁠Foundation Grappling Programme - £46 per calendar month⁠.
                     </h4>
+                    <br />
                     <h4>
                       Both ⁠Foundation Programmes - £58 per calender month.⁠
                     </h4>
 
-                    <p>
-                      Striking: Less than 18 months of consistent Muay Thai
-                      training or lower than green belt in Kickboxing.
-                    </p>
-                    <p>
-                      Grappling: Less than 18 months of consistent wrestling
-                      training or a white belt in Brazilian Jiu Jitsu.
-                    </p>
-
                     <h3>Experienced fighters:</h3>
+                    <p>
+                      Striking Experience: Over 18 months of consistent Muay
+                      Thai training or a minimum of green belt in Kickboxing.
+                    </p>
+                    <p>
+                      Grappling Experience: Over 18 months of consistent
+                      wresting training or a minimum of blue belt in Brazilian
+                      Jiu Jitsu.
+                    </p>
 
                     <h4>
                       Advanced Striking Programme - £58 per calendar month.
                     </h4>
+                    <br />
                     <h4>
                       Advanced Grappling Programme - £58 per calender month.
                     </h4>
@@ -166,16 +175,8 @@
                     <h4>
                       Both ⁠Advanced Programmes - £70 per calender month.⁠
                     </h4>
-
-                    <p>
-                      Striking: Experienced is over 18 months of consistent Muay
-                      Thai training or a minimum of green belt in Kickboxing.
-                    </p>
-                    <p>
-                      Grappling: Experienced is over 18 months of consistent
-                      wresting training or a minimum of blue belt in Brazilian
-                      Jiu Jitsu.
-                    </p>
+                    <p>For more information about these martial arts see our <a href="/classes">'Classes’</a> page.</p>
+Our adult's classes close for some UK bank holidays, check the <a href="timetable">'Timetables / Gym Closures'</a>  page for details.</p>
                   </div>
                 </v-col>
               </v-row>
@@ -191,26 +192,24 @@
                 <v-col cols="12" sm="12" md="12">
                   <div>
                     <p>
-                      Children from 4 years old to 7 years old attend our Voodoo
-                      Ninjas or Voodoo Samurais; the perfect preparation for all
-                      our martial arts classes. Both these classes are identical
-                      but run on different times / days for your convenience.
+                    Children from 4 years old to 7 years old attend our Voodoo Ninjas or Voodoo Samurais; the perfect preparation for all our martial arts classes. Both these classes are identical but run on different days and times for your convenience.
                     </p>
 
                     <p></p>
                     <h4>
-                      Voodoo Ninjas / Samurais programmes costs – £28 per
-                      calendar month.
+                     Samurai's - Sundays and Fridays at 4.00pm to 4.45pm - £28 per calendar month
                     </h4>
                     <br />
+                    <h4>Ninja's - Mondays and Wednesdays at 4.00pm to 4.45pm - £28 per calendar month.</h4>
+                
                     <h4>
                       You can have your child attend both of these programmes
                       for only - £40 per calender month.
                     </h4>
                     <p>
-                      Samurai's - Sundays and Fridays at 5.00pm to 5.45pm<br />
-                      Ninja's - Mondays and Wednesdays at 4.00pm to 4.45pm
-                    </p>
+                     For more information about these martial arts see our <a href="/classes">'Classes’</a> page.
+Our children's classes close over school holidays, check the <a href="timetable">'Timetables / Gym Closures'</a>  page for details.</p>
+                    
                   </div>
                 </v-col>
               </v-row>
@@ -226,33 +225,27 @@
                 <v-col cols="12" sm="12" md="12">
                   <div>
                     <p>
-                      Children from 8 years old to 11 years old attend our
-                      Juniors classes,<br />
-                      and children from 12 years old to 15 years old attend our
-                      Cadets classes.
+                      Children from 8 years old to 11 years old attend our Juniors classes,
+and children from 12 years old to 15 years old attend our Cadets classes.
                     </p>
-                    <p>
-                      Programmes available for either of these age groups are:
-                    </p>
-                    <p>Brazilian Jiu Jitsu Programme (2 classes per week)</p>
-                    <p>Kick Boxing Programme (2 classes per week)</p>
-                    <p></p>
+               
+                  
                     <h4>
-                      Any one of our children’s programmes costs – £28 per
-                      calendar month
+                     Brazilian Jiu Jitsu Programme (2 classes per week) - £28 per calendar month.
+                    </h4>
+                     <h4>
+                    Kick Boxing Programme (2 classes per week) - £28 per calendar month.
                     </h4>
                     <br />
                     <h4>
-                      Both of our children’s programmes costs – £40 per calendar
-                      month
+                     Both of our children’s programmes costs – £40 per calendar month
                     </h4>
 
                     <p>
-                      For details about this martial art see our
-                      <a href="/classes">'Classes’ </a>page. Our children's
-                      classes close over school holidays, check the
-                      <a href="timetable">'Timetable'</a> page for details.
-                    </p>
+                    For more information about these martial arts see our <a href="/classes">'Classes’</a> page.
+Our children's classes close over school holidays, check the <a href="timetable">'Timetables / Gym Closures'</a>  page for details.</p>
+                    
+              
                   </div>
                 </v-col>
               </v-row>

@@ -25,8 +25,9 @@
           >
             <div :class="isStriking(classItem.striking)">
               <div class="time">
-                {{ classItem.startTime }} - {{ classItem.endTime }}
-                {{ ifAMReturnAM(classItem.am) }}
+                {{ classItem.startTime }} {{ ifAMReturnAM(classItem.am) }} -
+                {{ classItem.endTime }}
+                {{ ifAMReturnAM(classItem.am, classItem.alternatePM, 2) }}
               </div>
               <div class="titleTime">{{ classItem.Title }}</div>
               <!-- {{ classItem.Title }} | {{ classItem.startTime }} -
@@ -47,7 +48,8 @@
           >
             <div :class="isKids(classItem.age)">
               <div class="time">
-                {{ classItem.startTime }} - {{ classItem.endTime }}
+                {{ classItem.startTime }} {{ ifAMReturnAM(classItem.am) }}-
+                {{ classItem.endTime }}
                 {{ ifAMReturnAM(classItem.am) }}
               </div>
               <div class="titleTime">{{ classItem.Title }}</div>
@@ -58,7 +60,7 @@
           <h3>Key</h3>
           <div>Striking Adults 16+<span class="rectKey Striking"></span></div>
           <div>Grappling Adults 16+<span class="rectKey Grappling"></span></div>
-          <div>Ninjas 4 to 7 years<span class="rectKey ninja"></span></div>
+          <div>Infants 4 to 7 years<span class="rectKey ninja"></span></div>
           <div>Juniors 8 till 11 years<span class="rectKey junior"></span></div>
           <div class="">
             Cadets 12 to 15 years <span class="rectKey cadet"></span>
@@ -70,7 +72,6 @@
 </template>
 
 <script>
-import GET_SINGLE_POSTS from "~/queries/singlepost.gql";
 import json from "~/static/timetable_new.json";
 import jsonKids from "~/static/timetablekids_new.json";
 export default {
@@ -144,7 +145,14 @@ export default {
         return "Grappling";
       }
     },
-    ifAMReturnAM(bool) {
+    ifAMReturnAM(bool, alternatePm, number) {
+      //check that alternatePm exists and number === 2
+      if (alternatePm) {
+        if (number == 2) {
+          return "PM";
+        }
+      }
+
       if (bool) {
         return "AM";
       } else {
@@ -167,6 +175,8 @@ export default {
       classesReturn.sort(function (a, b) {
         return a.start - b.start;
       });
+
+      console.log(classesReturn);
       return classesReturn;
     },
     checkforImage() {

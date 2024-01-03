@@ -21,9 +21,7 @@
       <v-icon right dark>mdi-basket-plus-outline </v-icon>
     </v-btn> -->
     <v-btn color="gray" class="ma-2 white--text">
-      <a href="https://www.voodoorecharge.co.uk" target="_blank">
-        Voodoo Recharge
-      </a>
+      <a href="https://www.voodoorecharge.co.uk" target="_blank"> Infants </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
 
@@ -39,7 +37,7 @@
         target="_blank"
         class="whiteLink"
       >
-        Join now
+        Adults Join now
       </a>
       <!-- <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon> -->
     </v-btn>

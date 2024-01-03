@@ -18,7 +18,7 @@
         "am": false,
         "Title": "Cadet Kickboxing, 12 to 15 years old",
         "age": "cadet",
-        "striking": false
+        "striking": true
       },
       {
         "day": "Tuesday",
@@ -27,7 +27,7 @@
         "am": false,
         "Title": "Junior Kickboxing, 8 to 11 years old",
         "age": "junior",
-        "striking": false
+        "striking": true
       },
       {
         "day": "Tuesday",
@@ -55,7 +55,7 @@
         "am": false,
         "Title": "Cadet BJJ, 12 to 15 years old",
         "age": "cadet",
-        "striking": true
+        "striking": false
       },
 
       {
@@ -65,7 +65,7 @@
         "am": false,
         "Title": "Junior Kickboxing, 8 to 11 years old",
         "age": "junior",
-        "striking": false
+        "striking": true
       },
       {
         "day": "Thursday",
@@ -93,7 +93,7 @@
         "am": false,
         "Title": "Cadet Kickboxing",
         "age": "cadet",
-        "striking": false
+        "striking": true
       },
       {
         "day": "Sunday",

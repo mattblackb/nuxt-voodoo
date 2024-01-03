@@ -60,7 +60,7 @@
             <div>
               Grappling Adults 16+<span class="rectKey Grappling"></span>
             </div>
-            <div>Ninjas 4 to 7 years<span class="rectKey ninja"></span></div>
+            <div>Infants 4 to 7 years<span class="rectKey ninja"></span></div>
             <div>
               Juniors 8 till 11 years<span class="rectKey junior"></span>
             </div>
