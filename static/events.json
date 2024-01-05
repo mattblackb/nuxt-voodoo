@@ -1,0 +1,311 @@
+{
+  "kids": {
+    "parties": [
+      {
+        "day": "Thursday 28th March 2024",
+        "startTime": "4:00",
+        "endTime": "5:00",
+        "am": false,
+        "Title": "4 to 11 years old",
+        "age": "ninja",
+        "location": "Voodoo Combat HQ",
+        "text": "Open to members and the public.",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097",
+        "title": "Voodoo Kids Easter Party"
+      },
+      {
+        "day": "Friday 25th October 2024",
+        "startTime": "4:00",
+        "endTime": "5:00",
+        "am": false,
+        "Title": "4 to 11 years old",
+        "age": "ninja",
+        "location": "Voodoo Combat HQ",
+        "text": "Open to members and the public.",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097",
+        "title": "Voodoo Kids Halloween Party"
+      },
+      {
+        "day": "Friday 20th December 2024",
+        "startTime": "4:00",
+        "endTime": "5:00",
+        "am": false,
+        "Title": "4 to 11 years old",
+        "age": "ninja",
+        "location": "Voodoo Combat HQ",
+        "text": "Open to members and the public.",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097",
+        "title": "Voodoo Kids Christmas Party"
+      }
+    ],
+    "bjjgradingjunior": [
+      {
+        "day": "Sunday 4th February 2024",
+        "startTime": "2:00",
+        "endTime": "3:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 21st April 2024",
+        "startTime": "2:00",
+        "endTime": "3:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+
+      {
+        "day": "Sunday 30th June 2024",
+        "startTime": "2:00",
+        "endTime": "3:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 8th September 2024",
+        "startTime": "2:00",
+        "endTime": "3:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 17th November 2024",
+        "startTime": "2:00",
+        "endTime": "3:30",
+        "am": false,
+        "text": "Members invitation only."
+      }
+    ],
+    "kbgradingjunior": [
+      {
+        "day": "Sunday 11th February 2024",
+        "startTime": "1:00",
+        "endTime": "2:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 28th April 2024",
+        "startTime": "1:00",
+        "endTime": "2:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 7th July 2024",
+        "startTime": "1:00",
+        "endTime": "2:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 15th September 2024",
+        "startTime": "1:00",
+        "endTime": "2:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 24th November 2024",
+        "startTime": "1:00",
+        "endTime": "2:30",
+        "am": false,
+        "text": "Members invitation only."
+      }
+    ],
+    "kbgradingcadet": [
+      {
+        "day": "Sunday 11th February 2024",
+        "startTime": "2:30",
+        "endTime": "4:00",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 28th April 2024",
+        "startTime": "2:30",
+        "endTime": "4:00",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 7th July 2024",
+        "startTime": "2:30",
+        "endTime": "4:00",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 15th September 2024",
+        "startTime": "2:30",
+        "endTime": "4:00",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 24th November 2024",
+        "startTime": "2:30",
+        "endTime": "4:00",
+        "am": false,
+        "text": "Members invitation only."
+      }
+    ],
+    "karategradingcadet": [
+      {
+        "day": "Sunday 4th February 2024",
+        "startTime": "5:00",
+        "endTime": "6:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 21st April 2024",
+        "startTime": "5:00",
+        "endTime": "6:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 30th June 2024",
+        "startTime": "5:00",
+        "endTime": "6:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 8th September 2024",
+        "startTime": "5:00",
+        "endTime": "6:30",
+        "am": false,
+        "text": "Members invitation only."
+      },
+      {
+        "day": "Sunday 17th November 2024",
+        "startTime": "5:00",
+        "endTime": "6:30",
+        "am": false,
+        "text": "Members invitation only."
+      }
+    ]
+  },
+  "adults": {
+    "trials": [
+      {
+        "day": "Sunday 17th November 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Thai Kickboxing Winter Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 27 January 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Grappling Winter Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 13 April 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Thai Kickboxing Spring Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 27 April 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Grappling Spring Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 6 July 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Thai Kickboxing Summer Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 20 July 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Grappling Summer Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 12 October 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Thai Kickboxing Autumn Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 19 October 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Voodoo Thai Kickboxing Autumn Trials",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      }
+    ]
+  },
+  "members": {
+    "coachestraining": [
+      {
+        "day": "Friday, 12 January 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Level 1 - Martial Arts Coaching Training Programme",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Friday, 12 January 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "First Aid for Sports - Including Combat Sports",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 20 April 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Level 1 - Martial Arts Coaching Training Programme",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Saturday, 1 June 2024",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "First Aid for Sports - Including Combat Sports",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Friday, 6 September",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "Level 1 - Martial Arts Coaching Training Programme",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      },
+      {
+        "day": "Friday, 18 October",
+        "startTime": "10:00 am",
+        "endTime": "2:00 pm",
+        "am": false,
+        "text": "First Aid for Sports - Including Combat Sports",
+        "link": "https://www.eventbrite.co.uk/signin/?referrer=%2Fmyevent%3Feid%3D783764961097"
+      }
+    ]
+  }
+}

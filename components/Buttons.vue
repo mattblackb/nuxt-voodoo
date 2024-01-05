@@ -11,6 +11,11 @@
       <v-icon right dark>mdi-chat-question </v-icon>
     </v-btn>
     <v-btn color="gray" class="ma-2 white--text">
+      <a href="/events"> Events </a>
+
+      <v-icon right dark>mdi-chat-question </v-icon>
+    </v-btn>
+    <v-btn color="gray" class="ma-2 white--text">
       <a href="/classes"> CLASSES </a>
       <v-icon right dark>mdi-weight-lifter </v-icon>
     </v-btn>
@@ -21,7 +26,7 @@
       <v-icon right dark>mdi-basket-plus-outline </v-icon>
     </v-btn> -->
     <v-btn color="gray" class="ma-2 white--text">
-      <a href="https://www.voodoorecharge.co.uk" target="_blank"> Infants </a>
+      <a href="https://www.voodoorecharge.co.uk" target="_blank"> Recharge </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
 
@@ -31,7 +36,7 @@
       </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
-    <v-btn class="ma-2 white--text backOrange">
+    <!-- <v-btn class="ma-2 white--text backOrange">
       <a
         href="https://voodoocombat.clubright.co.uk/register"
         target="_blank"
@@ -39,7 +44,7 @@
       >
         Adults Join now
       </a>
-      <!-- <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon> -->
+ 
     </v-btn>
     <v-btn
       color="white"
@@ -49,7 +54,7 @@
       target="_blank"
     >
       Kids join now
-    </v-btn>
+    </v-btn> -->
   </span>
 </template>
 

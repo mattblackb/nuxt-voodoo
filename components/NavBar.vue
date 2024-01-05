@@ -93,6 +93,18 @@
               </nuxt-link>
             </v-list-item-title>
           </v-list-item>
+
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-notebook</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-title to=""
+              ><nuxt-link to="/events" class="" aria-label="Events">
+                Events
+              </nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
         </v-list-item-group>
       </v-list>
       <v-row class="mt-3">
@@ -105,7 +117,7 @@
           href="https://voodoocombat.clubright.co.uk/register"
           target="_blank"
         >
-          Join now
+          Adults Join now
         </v-btn>
       </v-row>
       <v-row class="pt-3">
