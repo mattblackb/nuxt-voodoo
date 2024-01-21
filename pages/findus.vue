@@ -2,7 +2,7 @@
   <v-container>
     <div>
       <PageHeader>
-        <template v-slot:header> TIMETABLE </template>
+        <template v-slot:header> FIND US </template>
       </PageHeader>
     </div>
 
@@ -98,6 +98,19 @@ export default {
   data() {
     return {
       tab: null,
+    };
+  },
+  head() {
+    return {
+      title: "Macclesfield Brazilian Jiu Jitsu Classes | BJJ Macclesfield",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Discover top-notch Kickboxing and Brazilian Jiu Jitsu classes in Macclesfield. Our expert instructors provide dynamic training for all skill levels. Join us today!",
+        },
+      ],
     };
   },
 };
