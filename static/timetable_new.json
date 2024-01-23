@@ -22,7 +22,7 @@
         "day": "Tuesday",
         "startTime": "6:00",
         "endTime": "7:00",
-        "am": true,
+        "am": false,
         "Title": "Foundation Brazilian Jiu Jitsu",
         "striking": false
       },
@@ -72,17 +72,9 @@
         "day": "Friday",
         "startTime": "6:00",
         "endTime": "7:00",
-        "am": true,
+        "am": false,
         "Title": "Advanced Boxing",
         "striking": true
-      },
-      {
-        "day": "Friday",
-        "startTime": "7:00",
-        "endTime": "8:30",
-        "am": false,
-        "Title": "Advanced Brazilian Jiu Jitsu",
-        "striking": false
       },
 
       {
@@ -115,7 +107,7 @@
         "startTime": "7:00",
         "endTime": "8:30",
         "am": false,
-        "Title": "Advanced Wrestling",
+        "Title": "Advanced Brazilian Jiu Jitsu - Adults",
         "striking": false
       }
     ]
