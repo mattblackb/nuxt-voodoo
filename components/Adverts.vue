@@ -1,11 +1,11 @@
 <template>
   <v-carousel cycle hide-delimiter-background show-arrows-on-hover>
-    <v-carousel-item
+    <!-- <v-carousel-item
       src="/januarySale.png"
       cover
       href="https://voodoocombat.clubright.co.uk/register"
       target="_blank"
-    ></v-carousel-item>
+    ></v-carousel-item> -->
 
     <v-carousel-item
       src="/rechargeBanner.png"
