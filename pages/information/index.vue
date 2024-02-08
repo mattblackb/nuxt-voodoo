@@ -104,7 +104,7 @@
 
             <p>
               You don't need to rush out buying training clothes and equipment
-              straight away, do your free week of training first, find out if
+              straight away, do a few weeks training first, find out if
               you like it! Any training gear, clothing or equipment you’ll need
               in the future can be found on the ‘Classes' page.
             </p>
