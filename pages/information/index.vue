@@ -28,7 +28,8 @@
               THE BEST
             </h4>
             <br />
-            <h4>FREE, MEMBERSHIP AND INSURANCE!</h4>
+        
+        
 
             <h4>A FREE GUMSHEILD ON ATTENDING YOUR FIRST CLASS!</h4>
           </div>
