@@ -37,8 +37,7 @@
                 outlined
                 rounded
                 text
-                href="https://voodoocombat.clubright.co.uk/enquire"
-                target="_blank"
+                href="mailto:voodooservice@gmail.com"
               >
                 Enquiries
               </v-btn>

@@ -31,9 +31,7 @@
     </v-btn>
 
     <v-btn color="gray" class="ma-2 white--text">
-      <a href="https://voodoocombat.clubright.co.uk/enquire" target="_blank">
-        ENQUIRIES
-      </a>
+      <a href="mailto:voodooservice@gmail.com"> ENQUIRIES </a>
       <v-icon right dark>mdi-arrow-right-drop-circle-outline </v-icon>
     </v-btn>
     <!-- <v-btn class="ma-2 white--text backOrange">
