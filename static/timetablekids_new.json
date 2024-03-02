@@ -88,11 +88,11 @@
       },
       {
         "day": "Friday",
-        "startTime": "4:00",
-        "endTime": "4:45",
+        "startTime": "5:00",
+        "endTime": "6:00",
         "am": false,
-        "Title": "Voodoo Samurai's, 4 to 7 years old",
-        "age": "ninja",
+        "Title": "Cadet Kickboxing, 12 to 15 years old",
+        "age": "cadet",
         "striking": false
       },
       {
